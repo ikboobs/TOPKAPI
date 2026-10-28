@@ -6,13 +6,13 @@ export default [
     "group": "dinastia",
     "rank": "Sultán",
     "caste": "Alfa",
-    "aroma": "Incienso.", "té verde.",
+    "aroma": "Incienso y té verde",
     "image": "osamu.jpg",
     "summary": "Busca Consolidar su poder y asegurar la continuidad de su dinastía, protegiendo a sus hermanos y preservando la estabilidad del imperio por encima de cualquier sacrificio.",
-    "bio": "Criado desde pequeño para liderar, fue siempre plenamente consciente de que tanto él como su hermano eran lo único que separaba a su madre de una vida deshonrosa y precaria el día que su padre, el antiguo sultán, pasara a mejor vida; fue por esto que se esforzó en sus estudios, aprendiendo el arte de la guerra y cumpliendo cada responsabilidad que se le dió como şehzade en su época. Gracias a cada uno de estos méritos, sus grandes campañas militares y la buena administración de su provincia, fue que finalmente se lo nombró como el heredero en aquellos días.",
-            "Su ascenso al trono fue como debía ser, limpiando los vestigios que su padre dejó con mujeres que no eran su madre, solidificando su poder; la única excepción a la ley del fratricidio fue su sol, su complemento que lo acompañó desde el primer momento en el que abrió los ojos, Atsumu, nunca podría hacer a un lado a su adorado gemelo, habían pasado toda su existencia juntos y el deseo de ambos era terminar sus días uno al lado del otro, ya fuera en el campo de batalla o porque la vejez los hubiera alcanzado, por esto, Atsumu renunció a una familia propia a cambio de su vida y la estabilidad del imperio.",
-            "Los primeros años de gobierno fueron él y sus hermanos, Atsumu y la "pequeña" Otoha, ayudándolo desde las sombras a formar sus bases sólidas para gobernar. Tras la partida de su madre, fue su amada hermana quien ocupó las funciones de una Valide a petición de él, era la mujer en la que más confiaba en el mundo, las estrellas de su cielo, y deseaba poder darle el mérito más alto que estuviera en su poder para su estatus y rango.",
-            "Como padre, se le llegó a criticar por la cantidad de hijos con diferentes omegas, pero era su deber traer herederos dignos que pudieran ocupar su lugar algún día; Osamu intentaba dedicarle tiempo a cada uno de ellos, aún sabiendo el destino que se avecinaba en el futuro muuuuuuy lejano.", 
+    "bio": `Criado desde pequeño para liderar, Osamu fue consciente de que él y su hermano eran el sostén de su madre cuando el antiguo sultán muriera. Por ello se dedicó a sus estudios, aprendió el arte de la guerra y cumplió sus responsabilidades como Şehzade. Sus campañas militares y la buena administración de su provincia le permitieron ser nombrado heredero.
+      Su ascenso al trono consolidó su poder y puso fin a la influencia de las mujeres de su padre que amenazaban la posición de su madre. La única excepción a la ley del fratricidio fue Atsumu, su gemelo y complemento. Ambos habían compartido toda su existencia y deseaban permanecer juntos hasta el final, ya fuera en el campo de batalla o alcanzados por la vejez. Atsumu renunció a formar una familia propia para permanecer junto a su hermano y preservar la estabilidad del Imperio.
+      Durante los primeros años de su gobierno, sus hermanos, Atsumu y la pequeña Otoha, lo ayudaron a establecer bases sólidas para el reinado. Tras la muerte de su madre, Osamu confió a Otoha las responsabilidades de la Valide. Era una de las personas en quien más confiaba y deseaba reconocer su posición dentro de la corte.
+      Como padre, ha recibido críticas por tener hijos con distintas consortes. Sin embargo, considera que asegurar la continuidad de la dinastía es parte de su deber, aunque todavía no ha designado un heredero oficial.`,
     "relations": [
       "Hermano: Şehzade Atsumu y Otoha Sultán.",
       "Hijos: Şehzade Arata , Şehzade Osman, Şehzade Osome, Atsuki Sultán, Zayan Sultán y Osuyu Sultán.",
@@ -50,8 +50,8 @@ export default [
     "aroma": "Lavanda, ciruela, pimienta rosa, cacao y vainilla",
     "image": "otoha.jpg",
     "summary": "Procura proteger a su familia y conservar el equilibrio de la corte mediante la prudencia, sin exhibir abiertamente su influencia.",
-    "bio": "Nació y creció entre los privilegios y sutilezas de la corte, aprendiendo a desenvolverse con la gracia propia de una princesa y la perspicacia que exige su posición; su sonrisa cálida y su conversación amena le han permitido ganarse el aprecio de quienes la rodean, pues sabe hacer de los comentarios más triviales una oportunidad para acercar voluntades sin exhibir abiertamente su influencia.",
-           "Así, mientras cultiva la estima de la gente común fuera del palacio, dentro de sus muros conserva una presencia respetada, incluso en los asuntos del harén, donde la prudencia pesa tanto como el linaje.",
+    "bio": `Otoha nació y creció entre los privilegios y las sutilezas de la corte, donde aprendió a desenvolverse con la gracia propia de una princesa y la perspicacia que exige su posición. Su sonrisa cálida y su conversación amena le han permitido ganarse el aprecio de quienes la rodean; sabe convertir los comentarios más triviales en oportunidades para acercar voluntades sin exhibir abiertamente su influencia.
+      Mientras cultiva la estima de la gente fuera del palacio, conserva dentro de sus muros una presencia respetada. Tras la muerte de su madre, su hermano Osamu le confió las responsabilidades de la Valide. Viuda y madre de Hiro y Kenji, procura proteger a su familia y mantener el equilibrio de la corte mediante la prudencia, consciente de que incluso los gestos más amables pueden tener consecuencias políticas.`,
     "relations": [
       "Hermanos: Sultán Osamu y Otoha Sultán..",
       "Hijos: Sultanzade Hiro y Hanimsultan Kenji",
