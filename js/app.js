@@ -53,22 +53,17 @@ function relationText(text) {
   const names = TOPKAPI.characters
     .map(person => person.name)
     .sort((a, b) => b.length - a.length);
-
   let html = escapeHtml(text || "");
-
   for (const name of names) {
     const escapedName = escapeHtml(name);
     const safeName = escapedName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-
     html = html.replace(
       new RegExp(safeName, "g"),
       `<button class="relation-link" data-related-name="${escapedName}">${escapedName}</button>`
     );
   }
-
   return html;
 }
-
 function openProfile(id) {
   const person = TOPKAPI.characters.find(item => item.id === id);
   if (!person) return;
@@ -88,12 +83,9 @@ function openProfile(id) {
       ? `<span class="tag">Aroma: ${escapeHtml(person.aroma)}</span>`
       : ""
   ].join("");
-
   $("#dialogBody").innerHTML =
     `<p>${escapeHtml(person.bio || person.summary || "")}</p>`;
-
   const relations = person.relations || [];
-
   $("#dialogRelations").innerHTML = `
     <div class="profile-relations">
       ${relations.map(relation => `
@@ -104,9 +96,7 @@ function openProfile(id) {
       ? `<p class="profile-note">${escapeHtml(person.interaction)}</p>`
       : ""}
   `;
-
   $("#dialogNote").textContent = person.note || "";
-
   $("#profileDialog").showModal();
 }
 function renderOfficeCards() {
@@ -126,7 +116,7 @@ function renderInfoCards(target, items) {
       <p class="eyebrow">Estructura del palacio</p>
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(item.text)}</p>
-      <p><strong>Integrantes / estado:</strong> ${escapeHtml(item.people)}</p>
+      <p><strong>Responsables:</strong> ${relationText(item.people)}</p>
       <p><strong>Interacciones:</strong> ${escapeHtml(item.interaction)}</p>
     </article>`).join("");
 }
