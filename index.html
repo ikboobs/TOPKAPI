@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11100f">
+  <meta name="description" content="Topkapi Palace: dinastía, corte, harén y casas nobles.">
+  <title>Topkapi Palace — The Imperial Court</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#inicio">TOPKAPI <span>✦</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#dinastia">Dinastía</a></li>
+        <li><a href="#gobierno">Gobierno</a></li>
+        <li><a href="#harem">Harén</a></li>
+        <li><a href="#mujeres">Mujeres del palacio</a></li>
+        <li><a href="#hombres">Hombres del palacio</a></li>
+        <li><a href="#galeria">Galería</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content reveal">
+        <p class="eyebrow">The Imperial Court · Universo de rol</p>
+        <h1>Topkapi<br><em>Palace</em></h1>
+        <p class="hero-copy">Tras las puertas doradas, cada mirada es una promesa, cada silencio es un secreto y cada alianza puede cambiar el destino de un imperio.</p>
+        <a class="button" href="#historia">Entrar al palacio</a>
+        <div class="hero-note">POWER · BLOOD · LEGACY</div>
+      </div>
+    </section>
+
+    <section class="section history" id="historia">
+      <div class="history-image reveal"><img src="images/historia-topkapi.jpg" alt="Pintura clásica de inspiración palaciega" onerror="this.classList.add('missing-image')"></div>
+      <div class="history-copy reveal">
+        <p class="eyebrow">El imperio otomano</p>
+        <h2>Detrás de las puertas doradas</h2>
+        <div class="ornament">✦ ─── ✦</div>
+        <p>El palacio es el corazón de un imperio donde la sangre determina la herencia, el poder dicta las alianzas y los secretos pueden tener consecuencias irreversibles.</p>
+        <p>Esta página reúne la dinastía Miya, los cargos de gobierno, las casas nobles y las jerarquías internas del palacio. Los cargos marcados como vacantes todavía no tienen titular confirmado.</p>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong>01</strong><span>Trono imperial</span></div>
+      <div><strong>∞</strong><span>Secretos de la corte</span></div>
+      <div><strong>1520</strong><span>Inspiración histórica</span></div>
+    </section>
+
+    <section class="section" id="dinastia">
+      <div class="section-heading reveal">
+        <p class="eyebrow">La sangre del imperio</p><h2>The Imperial Bloodline</h2>
+        <p>La familia imperial ocupa el centro de la vida política. Selecciona un retrato para consultar el perfil, la casta, las responsabilidades y los vínculos de cada personaje.</p>
+      </div>
+      <div class="filter-row">
+        <input id="searchCharacters" type="search" placeholder="Buscar por nombre, rango o casta…" aria-label="Buscar personajes">
+        <select id="groupFilter" aria-label="Filtrar por grupo">
+          <option value="all">Todos los grupos</option>
+          <option value="dinastia">Dinastía</option>
+          <option value="gobierno">Gobierno y nobleza</option>
+          <option value="harem">Harén</option>
+          <option value="mujeres">Mujeres del palacio</option>
+          <option value="hombres">Hombres del palacio</option>
+        </select>
+      </div>
+      <div class="character-grid" id="characterGrid"></div>
+    </section>
+
+    <section class="section court-section" id="gobierno">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Lealtad y ambición</p><h2>El gobierno y las casas nobles</h2>
+        <p>Los títulos y los puestos no son lo mismo: «Pashá» es un título honorífico/de alto rango, mientras que gran visir, defterdar o kapıcıbaşı designan funciones concretas.</p>
+      </div>
+      <div class="office-grid" id="officeGrid"></div>
+    </section>
+
+    <section class="section" id="harem">
+      <div class="section-heading reveal">
+        <p class="eyebrow">La vida tras el velo</p><h2>El harén imperial</h2>
+        <p>El harén tiene su propia administración. Haber ingresado en él no significa necesariamente haber sido presentado ante el sultán ni haber recibido su favor.</p>
+      </div>
+      <div class="info-grid" id="haremGrid"></div>
+    </section>
+
+    <section class="section court-section" id="mujeres">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Residencias y servicio</p><h2>Las mujeres del palacio</h2>
+        <p>Esta sección agrupa consortes, integrantes de la familia imperial y servidoras. Sus atribuciones dependen de su rango y de la residencia a la que estén asignadas.</p>
+      </div>
+      <div class="info-grid" id="womenGrid"></div>
+    </section>
+
+    <section class="section" id="hombres">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Consejo, guardia y servicio</p><h2>Los hombres del palacio</h2>
+        <p>Príncipes, dignatarios, guardias y servidores tienen distintos accesos y responsabilidades. El acceso al harén está regulado por la autoridad de la residencia.</p>
+      </div>
+      <div class="info-grid" id="menGrid"></div>
+    </section>
+
+    <section class="section gallery-section" id="galeria">
+      <div class="section-heading reveal">
+        <p class="eyebrow">El arte del imperio</p><h2>A Gallery of Secrets</h2>
+        <p>Pinturas clásicas y fragmentos visuales para conservar la estética barroca y museística de la página.</p>
+      </div>
+      <div class="gallery">
+        <figure><img src="images/arte-01.jpg" alt="Pintura clásica" onerror="this.classList.add('missing-image')"><figcaption>El peso de la corona</figcaption></figure>
+        <figure><img src="images/arte-02.jpg" alt="Pintura clásica" onerror="this.classList.add('missing-image')"><figcaption>Entre sombras</figcaption></figure>
+        <figure><img src="images/arte-03.jpg" alt="Pintura clásica" onerror="this.classList.add('missing-image')"><figcaption>Los jardines del palacio</figcaption></figure>
+        <figure><img src="images/arte-04.jpg" alt="Pintura clásica" onerror="this.classList.add('missing-image')"><figcaption>El precio de la lealtad</figcaption></figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="eyebrow">The Imperial Court</p><h2>Topkapi Palace</h2>
+    <p>Universo de rol ficticio · Inspiración histórica</p>
+    <p class="footer-small">Los perfiles y puestos son editables en los archivos de la carpeta <code>js/</code>.</p>
+  </footer>
+
+  <dialog id="profileDialog" class="profile-dialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Cerrar">×</button>
+    <p class="eyebrow" id="dialogGroup"></p>
+    <h2 id="dialogName"></h2>
+    <p class="dialog-rank" id="dialogRank"></p>
+    <div class="profile-meta" id="dialogMeta"></div>
+    <div class="profile-body" id="dialogBody"></div>
+    <h3>Funciones / responsabilidades</h3><div id="dialogDuties"></div>
+    <h3>Vínculos e interacción</h3><div id="dialogRelations"></div>
+    <p class="profile-note" id="dialogNote"></p>
+  </dialog>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
