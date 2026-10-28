@@ -49,21 +49,64 @@ function renderCharacters() {
 function listHtml(items) {
   return `<ul>${(items || []).map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
 }
+function relationText(text) {
+  const names = TOPKAPI.characters
+    .map(person => person.name)
+    .sort((a, b) => b.length - a.length);
+
+  let html = escapeHtml(text || "");
+
+  for (const name of names) {
+    const escapedName = escapeHtml(name);
+    const safeName = escapedName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+    html = html.replace(
+      new RegExp(safeName, "g"),
+      `<button class="relation-link" data-related-name="${escapedName}">${escapedName}</button>`
+    );
+  }
+
+  return html;
+}
+
 function openProfile(id) {
   const person = TOPKAPI.characters.find(item => item.id === id);
   if (!person) return;
+
   $("#dialogGroup").textContent = groupLabel(person.group);
   $("#dialogName").textContent = person.name;
-  $("#dialogRank").textContent = person.rank;
+  $("#dialogRank").textContent = person.rank || "";
+
   $("#dialogMeta").innerHTML = [
-    person.age ? `<span class="tag">${escapeHtml(person.age)} años</span>` : "",
-    person.caste ? `<span class="tag">Casta: ${escapeHtml(person.caste)}</span>` : "",
-    person.aroma ? `<span class="tag">Aroma: ${escapeHtml(person.aroma)}</span>` : ""
+    person.age
+      ? `<span class="tag">${escapeHtml(person.age)} años</span>`
+      : "",
+    person.caste
+      ? `<span class="tag">${escapeHtml(person.caste)}</span>`
+      : "",
+    person.aroma
+      ? `<span class="tag">Aroma: ${escapeHtml(person.aroma)}</span>`
+      : ""
   ].join("");
-  $("#dialogBody").innerHTML = `<p>${escapeHtml(person.bio || person.summary)}</p>`;
-  $("#dialogDuties").innerHTML = listHtml(person.duties);
-  $("#dialogRelations").innerHTML = `${listHtml(person.relations)}<p>${escapeHtml(person.interaction || "")}</p>`;
+
+  $("#dialogBody").innerHTML =
+    `<p>${escapeHtml(person.bio || person.summary || "")}</p>`;
+
+  const relations = person.relations || [];
+
+  $("#dialogRelations").innerHTML = `
+    <div class="profile-relations">
+      ${relations.map(relation => `
+        <div class="relation-item">${relationText(relation)}</div>
+      `).join("")}
+    </div>
+    ${person.interaction
+      ? `<p class="profile-note">${escapeHtml(person.interaction)}</p>`
+      : ""}
+  `;
+
   $("#dialogNote").textContent = person.note || "";
+
   $("#profileDialog").showModal();
 }
 function renderOfficeCards() {
@@ -121,6 +164,13 @@ document.querySelectorAll("#navLinks a").forEach(link => link.addEventListener("
   $("#navLinks").classList.remove("open");
   $("#menuToggle").setAttribute("aria-expanded", "false");
 }));
+.$("#dialogRelations").addEventListener("click", event => {
+  const button = event.target.closest("[data-related-name]");
+  if (!button) return;
+  const name = button.dataset.relatedName;
+  const person = TOPKAPI.characters.find(item => item.name === name);
+  if (person) openProfile(person.id);
+});
 
 renderCharacters();
 renderOfficeCards();
