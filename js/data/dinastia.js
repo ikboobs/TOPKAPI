@@ -1,32 +1,25 @@
 export default [
   {
     "id": "osamu",
-    "name": "Osamu Miya",
-    "age": "30",
+    "name": "Osamu",
+    "age": "30 ",
     "group": "dinastia",
     "rank": "Sultán",
     "caste": "Alfa",
-    "aroma": "Incienso con toques de té verde",
+    "aroma": "Incienso.", "té verde.",
     "image": "osamu.jpg",
-    "summary": "Busca preservar la estabilidad de la casa Miya y sostener el poder sin precipitar la elección de un heredero.",
-    "bio": "Fue criado para gobernar. Se formó en administración, guerra y gobierno provincial antes de ascender al trono. Confía especialmente en su gemelo Atsumu y en su hermana Otoha, a quien encargó cumplir las funciones de la Valide tras la muerte de su madre.",
-    "duties": [
-      "Gobernar el imperio y presidir las decisiones de Estado.",
-      "Nombrar o destituir a los altos dignatarios y confirmar sus responsabilidades.",
-      "Proteger la continuidad dinástica y reconocer a sus descendientes.",
-      "Recibir informes del consejo y arbitrar disputas de gran importancia."
-    ],
+    "summary": "Busca Consolidar su poder y asegurar la continuidad de su dinastía, protegiendo a sus hermanos y preservando la estabilidad del imperio por encima de cualquier sacrificio.",
+    "bio": "Criado desde pequeño para liderar, fue siempre plenamente consciente de que tanto él como su hermano eran lo único que separaba a su madre de una vida deshonrosa y precaria el día que su padre, el antiguo sultán, pasara a mejor vida; fue por esto que se esforzó en sus estudios, aprendiendo el arte de la guerra y cumpliendo cada responsabilidad que se le dió como şehzade en su época. Gracias a cada uno de estos méritos, sus grandes campañas militares y la buena administración de su provincia, fue que finalmente se lo nombró como el heredero en aquellos días.",
+            "Su ascenso al trono fue como debía ser, limpiando los vestigios que su padre dejó con mujeres que no eran su madre, solidificando su poder; la única excepción a la ley del fratricidio fue su sol, su complemento que lo acompañó desde el primer momento en el que abrió los ojos, Atsumu, nunca podría hacer a un lado a su adorado gemelo, habían pasado toda su existencia juntos y el deseo de ambos era terminar sus días uno al lado del otro, ya fuera en el campo de batalla o porque la vejez los hubiera alcanzado, por esto, Atsumu renunció a una familia propia a cambio de su vida y la estabilidad del imperio.",
+            "Los primeros años de gobierno fueron él y sus hermanos, Atsumu y la "pequeña" Otoha, ayudándolo desde las sombras a formar sus bases sólidas para gobernar. Tras la partida de su madre, fue su amada hermana quien ocupó las funciones de una Valide a petición de él, era la mujer en la que más confiaba en el mundo, las estrellas de su cielo, y deseaba poder darle el mérito más alto que estuviera en su poder para su estatus y rango.",
+            "Como padre, se le llegó a criticar por la cantidad de hijos con diferentes omegas, pero era su deber traer herederos dignos que pudieran ocupar su lugar algún día; Osamu intentaba dedicarle tiempo a cada uno de ellos, aún sabiendo el destino que se avecinaba en el futuro muuuuuuy lejano.", 
     "relations": [
-      "Hermano gemelo de Atsumu Miya y hermano mayor de Otoha Miya.",
-      "Consorte de Tarae Yamaguchi (Haseki Sultan) y de Kenma Kozume (Baş Kadın); ambas conservan sus posiciones.",
-      "Padre de Arata, Atsuki, Osman, Osome, Zayan y Osuyu.",
-      "No hay heredero oficial designado; la edad de los príncipes no establece por sí sola la sucesión.",
-      "Otoha cumple las funciones de Valide por delegación, tras la muerte de su madre."
+      "Hermano: Şehzade Atsumu y Otoha Sultán.",
+      "Hijos: Şehzade Arata , Şehzade Osman, Şehzade Osome, Atsuki Sultán, Zayan Sultán y Osuyu Sultán.",
     ],
-    "interaction": "Puede interactuar con todos los estamentos por autoridad soberana. El acceso privado a él depende de sus órdenes, del protocolo y de la trama.",
-    "note": "Sucesión imperial: sin heredero oficial por decisión del grupo.",
+    "note": "El acceso privado a él depende de sus órdenes, del protocolo y de la trama.",
     "gender": "Masculino",
-    "subgroup": "Los tres hermanos Miya"
+    "subgroup": "Estirpe del Trono"
   },
   {
     "id": "atsumu",
@@ -37,21 +30,15 @@ export default [
     "caste": "Alfa",
     "aroma": "Corteza y miel",
     "image": "atsumu.jpg",
-    "summary": "Su lealtad a Osamu pesa más que cualquier aspiración propia; no desea disputar el trono a su gemelo.",
-    "bio": "Nació como gemelo de Osamu y fue educado dentro de la casa imperial. Aunque posee sangre real, su lealtad está con su hermano y no aspira al trono ni a formar una rama rival.",
-    "duties": [
-      "Aconsejar al sultán cuando este lo solicite.",
-      "Representar a la casa imperial en actos o misiones autorizadas.",
-      "Apoyar la estabilidad de la dinastía sin sustituir la autoridad del soberano."
-    ],
+    "summary": "Su ambición no reside en el trono, sino en permanecer al lado de su hermano, protegiendo su corona y preservando el vínculo que siempre ha sido el centro de su mundo.",
+    "bio": "Nacido en la alta cuna, criado y forjado para un puesto que jamás fue suyo. Él admira a su otra mitad, alma de su corazón que guía el camino ejerciendo el poder y la gloria sobre todos. Observar y acompañar a su hermano siempre fue su lugar y adoración, aunque esta última se comparte hacia su luna.",
     "relations": [
-      "Hermano gemelo de Osamu y hermano de Otoha.",
-      "Tío de los hijos de Osamu.",
-      "Príncipe de sangre imperial sin aspiración al trono."
+      "Hermanos: Sultán Osamu y Otoha Sultán.",
+      "Sobrinos: Şehzade Arata , Şehzade Osman, Şehzade Osome, Atsuki Sultán, Zayan Sultán y Osuyu Sultán.",
     ],
-    "interaction": "Puede tratar con la familia imperial, dignatarios y personal autorizado. No tiene autoridad automática sobre los departamentos que no le hayan sido asignados.",
+    "note": "Puede tratar con la familia imperial, dignatarios y personal autorizado.",
     "gender": "Masculino",
-    "subgroup": "Los tres hermanos Miya"
+    "subgroup": "Estirpe del Trono"
   },
   {
     "id": "otoha",
@@ -63,26 +50,17 @@ export default [
     "aroma": "Lavanda, ciruela, pimienta rosa, cacao y vainilla",
     "image": "otoha.jpg",
     "summary": "Procura proteger a su familia y conservar el equilibrio de la corte mediante la prudencia, sin exhibir abiertamente su influencia.",
-    "bio": "Otoha creció entre los privilegios de la casa Miya y las sutilezas de la corte. Su trato cálido y su prudencia le permiten ejercer influencia sin exhibirla abiertamente. Es viuda y madre de Hiro y Kenji. Tras la muerte de su madre, Osamu le encargó cumplir las funciones de Valide Sultan mientras no haya una titular.",
-    "duties": [
-      "Cumplir provisionalmente las funciones de la Valide Sultan mientras no haya titular.",
-      "Servir de enlace entre el sultán, las mujeres de la dinastía y la administración del harén.",
-      "Supervisar el bienestar y la educación de los menores de la casa imperial.",
-      "Intervenir en conflictos internos del harén y elevar asuntos graves al sultán.",
-      "Coordinar su casa y su servicio personal, incluida Shizuka Kita."
-    ],
+    "bio": "Nació y creció entre los privilegios y sutilezas de la corte, aprendiendo a desenvolverse con la gracia propia de una princesa y la perspicacia que exige su posición; su sonrisa cálida y su conversación amena le han permitido ganarse el aprecio de quienes la rodean, pues sabe hacer de los comentarios más triviales una oportunidad para acercar voluntades sin exhibir abiertamente su influencia.",
+           "Así, mientras cultiva la estima de la gente común fuera del palacio, dentro de sus muros conserva una presencia respetada, incluso en los asuntos del harén, donde la prudencia pesa tanto como el linaje.",
     "relations": [
-      "Hermana menor de Osamu y Atsumu.",
-      "Viuda; su difunto esposo no forma parte del elenco activo.",
-      "Madre de Hiro y Kenji, sobrinos del sultán.",
-      "Tía de los hijos de Osamu.",
-      "Shizuka Kita es su sirvienta personal.",
-      "Morisuke Yaku administra las tareas cotidianas del harén bajo su autoridad."
+      "Hermanos: Sultán Osamu y Otoha Sultán..",
+      "Hijos: Sultanzade Hiro y Hanimsultan Kenji",
+      "Sobrinos: Şehzade Arata , Şehzade Osman, Şehzade Osome, Atsuki Sultán, Zayan Sultán y Osuyu Sultán.",
+      "Cariye: Shizuka Kita",
     ],
-    "interaction": "Puede interactuar con la familia imperial, las responsables del harén, sus servidores, dignatarios recibidos en audiencia y las casas nobles con las que mantenga vínculos. Su autoridad como Valide es funcional y delegada: no la convierte en madre biológica del sultán.",
-    "note": "Viuda. Valide en funciones por delegación; no es la madre biológica del sultán.",
+    "note": "Puede interactuar con la familia imperial, las responsables del harén, sus servidores, dignatarios recibidos en audiencia y las casas nobles con las que mantenga vínculos. Su autoridad como Valide es funcional y delegada: no la convierte en madre biológica del sultán.",
     "gender": "Femenino",
-    "subgroup": "Los tres hermanos Miya"
+    "subgroup": "Estirpe del Trono"
   },
   {
     "id": "tarae",
