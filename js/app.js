@@ -154,7 +154,7 @@ document.querySelectorAll("#navLinks a").forEach(link => link.addEventListener("
   $("#navLinks").classList.remove("open");
   $("#menuToggle").setAttribute("aria-expanded", "false");
 }));
-.$("#dialogRelations").addEventListener("click", event => {
+document.addEventListener("click", event => {
   const button = event.target.closest("[data-related-name]");
   if (!button) return;
   const name = button.dataset.relatedName;
