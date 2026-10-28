@@ -21,8 +21,6 @@
         <li><a href="#dinastia">Dinastía</a></li>
         <li><a href="#gobierno">Gobierno</a></li>
         <li><a href="#harem">Harén</a></li>
-        <li><a href="#mujeres">Mujeres del palacio</a></li>
-        <li><a href="#hombres">Hombres del palacio</a></li>
         <li><a href="#galeria">Galería</a></li>
       </ul>
     </nav>
@@ -58,18 +56,22 @@
 
     <section class="section" id="dinastia">
       <div class="section-heading reveal">
-        <p class="eyebrow">La sangre del imperio</p><h2>The Imperial Bloodline</h2>
-        <p>La familia imperial ocupa el centro de la vida política. Selecciona un retrato para consultar el perfil, la casta, las responsabilidades y los vínculos de cada personaje.</p>
+        <p class="eyebrow">La Casa Imperial</p>
+        <h2>La dinastía Miya</h2>
+        <div class="ornament">✦ ─── ❦ ─── ✦</div>
+        <p>
+        La sangre imperial concede privilegios, pero también impone deberes.
+        Entre alianzas, descendencia y antiguas lealtades, cada miembro de la
+        casa Miya ocupa un lugar en el delicado equilibrio del trono.
+        </p>
       </div>
       <div class="filter-row">
         <input id="searchCharacters" type="search" placeholder="Buscar por nombre, rango o casta…" aria-label="Buscar personajes">
         <select id="groupFilter" aria-label="Filtrar por grupo">
-          <option value="all">Todos los grupos</option>
-          <option value="dinastia">Dinastía</option>
+          <option value="all">Toda la corte</option>
+          <option value="dinastia">Casa Imperial</option>
           <option value="gobierno">Gobierno y nobleza</option>
-          <option value="harem">Harén</option>
-          <option value="mujeres">Mujeres del palacio</option>
-          <option value="hombres">Hombres del palacio</option>
+          <option value="harem">Harén Imperial</option>
         </select>
       </div>
       <div class="character-grid" id="characterGrid"></div>
@@ -89,22 +91,6 @@
         <p>El harén tiene su propia administración. Haber ingresado en él no significa necesariamente haber sido presentado ante el sultán ni haber recibido su favor.</p>
       </div>
       <div class="info-grid" id="haremGrid"></div>
-    </section>
-
-    <section class="section court-section" id="mujeres">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Residencias y servicio</p><h2>Las mujeres del palacio</h2>
-        <p>Esta sección agrupa consortes, integrantes de la familia imperial y servidoras. Sus atribuciones dependen de su rango y de la residencia a la que estén asignadas.</p>
-      </div>
-      <div class="info-grid" id="womenGrid"></div>
-    </section>
-
-    <section class="section" id="hombres">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Consejo, guardia y servicio</p><h2>Los hombres del palacio</h2>
-        <p>Príncipes, dignatarios, guardias y servidores tienen distintos accesos y responsabilidades. El acceso al harén está regulado por la autoridad de la residencia.</p>
-      </div>
-      <div class="info-grid" id="menGrid"></div>
     </section>
 
     <section class="section gallery-section" id="galeria">
@@ -129,13 +115,18 @@
 
   <dialog id="profileDialog" class="profile-dialog">
     <button class="dialog-close" id="dialogClose" aria-label="Cerrar">×</button>
-    <p class="eyebrow" id="dialogGroup"></p>
-    <h2 id="dialogName"></h2>
-    <p class="dialog-rank" id="dialogRank"></p>
+    <div class="profile-heading">
+      <p class="eyebrow" id="dialogGroup"></p>
+      <h2 id="dialogName"></h2>
+      <p class="dialog-rank" id="dialogRank"></p>
+    </div>
     <div class="profile-meta" id="dialogMeta"></div>
+    <div class="profile-divider">✦</div>
     <div class="profile-body" id="dialogBody"></div>
-    <h3>Funciones / responsabilidades</h3><div id="dialogDuties"></div>
-    <h3>Vínculos e interacción</h3><div id="dialogRelations"></div>
+    <section class="profile-connections">
+      <h3>Vínculos de la corte</h3>
+      <div id="dialogRelations"></div>
+    </section>
     <p class="profile-note" id="dialogNote"></p>
   </dialog>
 
