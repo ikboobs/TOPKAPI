@@ -52,7 +52,8 @@ function renderHarem(){
     "natsu",
     "shizuka",
     "shoyo",
-    "kageyama"
+    "kageyama",
+    "svet",
   ]
 }, {title:"Servicio del harén",desc:"Personal dedicado a las tareas y la administración cotidiana de la casa interior.",ids:["kei"]}
  ];
