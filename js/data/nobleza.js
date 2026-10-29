@@ -12,7 +12,8 @@ export default {
       "summary": "Dignatario de trayectoria militar, reconocido por su estrategia y disciplina.",
       "bio": ``,
       "relations": [
-        "Consorte: Keiji", "Hijo: "
+        "Consorte: Keiji Paşahanım .",
+        "Hijos: Yun Pashazade.",
       ],
       "gender": "Masculino"
     },
@@ -21,14 +22,15 @@ export default {
       "name": "Keiji",
       "age": "40",
       "group": "nobleza",
-      "rank": "Noble",
-      "caste": "No consignada",
-      "aroma": "No consignado",
+      "rank": "Paşahanım ",
+      "caste": "Omega",
+      "aroma": "Té blanco y vainilla",
       "image": "akaashi.jpg",
-      "summary": "Noble y consejero de confianza dentro de la casa de Bokuto.",
-      "bio": "Asesora a Bokuto y participa en asuntos políticos y territoriales. Ser cónyuge de un Pashá no le concede automáticamente el título de Bey.",
+      "summary": "Consorte y consejero de confianza de una casa noble.",
+      "bio": ``,
       "relations": [
-        "Responde a: BokutoPasha"
+        "Consorte: Kotaro.",
+        "Hijos: Yun Pashazade.",
       ],
       "gender": "Masculino"
     },
@@ -42,9 +44,10 @@ export default {
       "aroma": "Tabaco dulce",
       "image": "kuroo.jpg",
       "summary": "Dignatario vinculado a la defensa de los puertos y a la seguridad del comercio.",
-      "bio": "Proviene de una dinastía vinculada al ejército y al comercio. Su matrimonio con Suguru amplía sus conexiones nobles.",
+      "bio": ``,
       "relations": [
-        "Responde a: OsamuSultan"
+        "Consorte: Suguru Paşahanım.",
+        "Hijos: Noé Pashazade.",
       ],
       "gender": "Masculino"
     },
@@ -53,14 +56,15 @@ export default {
       "name": "Suguru",
       "age": "33",
       "group": "nobleza",
-      "rank": "Noble",
-      "caste": "No consignada",
-      "aroma": "No consignado",
+      "rank": "Paşahanım ",
+      "caste": "Omega",
+      "aroma": "Limón, menta y miel.",
       "image": "daisho.jpg",
-      "summary": "Miembro de una casa noble; perspicaz en alianzas y asuntos de corte.",
-      "bio": "Es políticamente perspicaz y contribuye a la estrategia de su casa. No se le asigna un cargo de Estado por matrimonio.",
+      "summary": "Consorte de una casa noble; perspicaz en alianzas y asuntos de corte.",
+      "bio": ``,
       "relations": [
-        "Responde a: KurooPasha"
+        "Consorte: Suguru Paşahanım.",
+        "Hijos: Noé Pashazade.",
       ],
       "gender": "Masculino"
     },
@@ -74,7 +78,7 @@ export default {
       "aroma": "Sándalo, frutos rojos y chocolate",
       "image": "tendo.jpg",
       "summary": "Dignatario de influencia militar y diplomática.",
-      "bio": "Hijo ilegítimo de un antiguo Pashá, construyó su influencia mediante servicio militar y diplomacia.",
+      "bio": ``,
       "relations": [],
       "gender": "Masculino"
     },
@@ -88,7 +92,7 @@ export default {
       "aroma": "Benjuí, incienso y tonka",
       "image": "sakusa.jpg",
       "summary": "Administrador militar y estratega, meticuloso en los asuntos de Estado.",
-      "bio": "Su influencia proviene de la planificación y la administración militar. Prefiere operar con discreción.",
+      "bio": ``,
       "relations": [],
       "gender": "Masculino"
     },
@@ -99,12 +103,13 @@ export default {
       "group": "nobleza",
       "rank": "Bey",
       "caste": "Alfa",
-      "aroma": "No consignado",
+      "aroma": "Almizcle, cuero y pimienta.",
       "image": "ushijima.jpg",
       "summary": "Señor de una casa territorial con tradición militar.",
-      "bio": "Su linaje posee tierras e influencia militar. El alcance de sus funciones depende del territorio y los privilegios reconocidos a su casa.",
+      "bio": ``,
       "relations": [
-        "Responde a: OsamuSultan"
+        "Consorte: Tooru Hanim.",
+        "Hijos: Rúzgar Hanim y Rashida Hanim.",
       ],
       "gender": "Masculino"
     },
@@ -115,12 +120,13 @@ export default {
       "group": "nobleza",
       "rank": "Noble",
       "caste": "Omega",
-      "aroma": "No consignado",
+      "aroma": "Café y nuez moscada",
       "image": "oikawa.jpg",
-      "summary": "Noble ligado a la casa; hábil en las relaciones sociales y políticas.",
-      "bio": "Su posición deriva de su casa y su matrimonio. No se le asigna automáticamente un cargo gubernamental.",
+      "summary": "Consorte de una casa noble; hábil en las relaciones sociales y políticas.",
+      "bio": ``,
       "relations": [
-        "Responde a: WakatoshiBey"
+        "Consorte: Wakatoshi Bey.",
+        "Hijos: Rúzgar Hanim y Rashida Hanim.",
       ],
       "gender": "Masculino"
     },
@@ -131,10 +137,10 @@ export default {
       "group": "nobleza",
       "rank": "Bey",
       "caste": "Alfa",
-      "aroma": "No consignado",
+      "aroma": "Cedro, cuero y especias calidas.",
       "image": "iwaizumi.jpg",
-      "summary": "Heredero de una casa territorial con tradición militar.",
-      "bio": "Procede de un linaje militar y recibió su título y propiedades por herencia.",
+      "summary": "Señor de una casa territorial con tradición militar.",
+      "bio": ``,
       "relations": [],
       "gender": "Masculino"
     },
@@ -148,8 +154,8 @@ export default {
       "aroma": "Manzana verde y cedro",
       "image": "lev.jpg",
       "summary": "Noble de origen extranjero que ganó posición mediante servicio e influencia.",
-      "bio": "Perdió a su familia durante un conflicto y logró una posición noble a través de su servicio y las redes que construyó.",
-      "relations": [],
+      "bio": ``,
+      "relations": ["Hermana: Alissa" ],
       "gender": "Masculino"
     },
     {
@@ -157,15 +163,15 @@ export default {
       "name": "Yūn",
       "age": "10",
       "group": "nobleza",
-      "rank": "Hijo de Pashá",
+      "rank": "Pasházade",
       "caste": "Omega",
-      "aroma": "No consignado",
+      "aroma": "",
       "image": "bokuto-son.jpg",
-      "summary": "Hijo de Bokuto y Keiji; pertenece a una casa noble.",
-      "bio": "Su posición familiar lo vincula a una casa militar y noble, pero no le otorga automáticamente un título de gobierno.",
+      "summary": "Estirpe de una casa noble.",
+      "bio": ``,
       "relations": [
-        "Padre: BokutoPasha",
-        "Madre: KeijiNoble"
+        "Padre: Kotaro Pasha",
+        "Madre: Keiji Pashahanim"
       ],
       "gender": "Masculino"
     },
@@ -174,15 +180,15 @@ export default {
       "name": "Noe",
       "age": "15",
       "group": "nobleza",
-      "rank": "Hijo de noble",
+      "rank": "Pasházade",
       "caste": "Omega",
       "aroma": "No consignado",
       "image": "kuroo-son.jpg",
-      "summary": "Hijo de Kuroo y Suguru; heredero de los vínculos de su casa.",
-      "bio": "Pertenece a una casa influyente por los vínculos militares y comerciales de sus padres.",
+      "summary": "Estirpe de una casa noble.",
+      "bio": ``,
       "relations": [
-        "Padre: KurooPasha",
-        "Madre: SuguruNoble"
+        "Padre: Tetsuro Pasha",
+        "Madre: Suguro Pashahanim"
       ],
       "gender": "Masculino"
     },
@@ -192,14 +198,14 @@ export default {
       "age": "16",
       "group": "nobleza",
       "rank": "Hijo de Bey",
-      "caste": "No consignada",
-      "aroma": "No consignado",
+      "caste": "Omega",
+      "aroma": "Pera madura con leche de almendras.",
       "image": "ruzgar.jpg",
-      "summary": "Hijo de Wakatoshi y Tōru.",
-      "bio": "La filiación noble no le concede automáticamente el título de Bey.",
+      "summary": "Estirpe de una casa noble.",
+      "bio": ``,
       "relations": [
-        "Padre: WakatoshiBey",
-        "Madre: ToruConsorte"
+        "Padre: Wakatoshi Bey",
+        "Madre: Tooru Hanim"
       ],
       "gender": "Masculino"
     },
@@ -212,11 +218,11 @@ export default {
       "caste": "Alfa",
       "aroma": "No consignado",
       "image": "rashida.jpg",
-      "summary": "Hija de Wakatoshi y Tōru.",
-      "bio": "Forma parte de la casa y su posición formal debe ajustarse al sistema de títulos del grupo.",
+      "summary": "Estirpe de una casa noble.",
+      "bio": ``,
       "relations": [
-        "Padre: WakatoshiBey",
-        "Madre: ToruConsorte"
+        "Padre: Wakatoshi Bey",
+        "Madre: Tooru Hanim"
       ],
       "gender": "Femenino"
     },
@@ -225,14 +231,13 @@ export default {
       "name": "Issa",
       "age": "26",
       "group": "nobleza",
-      "rank": "Noble independiente",
+      "rank": "Hatun",
       "caste": "Alfa",
       "aroma": "Cereza y vino tinto",
       "image": "issa.jpg",
-      "summary": "Noble de voluntad calculadora que procura recuperar influencia para la autoridad imperial y orientar el rumbo de la corte.",
-      "bio": "Conocida por su discreción y sus vínculos reservados con distintas casas nobles, Issa se mueve con cautela en los círculos de poder. Aspira a restaurar la fuerza de la autoridad imperial y a conducir las reformas desde una posición de influencia propia.",
+      "summary": "Noble de una casa caida.",
+      "bio": ``,
       "relations": [],
-      "note": "Sus alianzas y vínculos privados se desarrollan según la trama y no implican acceso irrestricto a las dependencias imperiales.",
       "gender": "Femenino"
     }
   ]
