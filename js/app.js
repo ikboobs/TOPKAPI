@@ -42,15 +42,15 @@ $("#administrationCharacters").innerHTML = people
 function renderHarem(){
  const groups=[
  {title:"Sultanas imperiales · Sultanlar",desc:"",ids:["otoha"]},
- {title:"Consortes imperiales",desc:"Las consortes conservan los rangos consignados en sus fichas.",ids:["tarae","kenma"]},
+ {title:"Consortes imperiales",desc:"Las consortes conservan los rangos consignados en sus fichas.",ids:["tarae","kenma","shimizu"]},
 {
   title: "İkbal y cariyes",desc: "Miembros del harén con distintos rangos y situaciones personales.",
   ids: [
     "alissa",
     "akiko",
     "yaku",
-    "natsu",
     "shizuka",
+    "natsu",
     "shoyo",
     "kageyama",
     "svet",
