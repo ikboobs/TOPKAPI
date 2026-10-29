@@ -39,8 +39,19 @@ function renderHarem(){
  const groups=[
  {title:"Sultanas imperiales · Sultanlar",desc:"Integrantes de la dinastía imperial presentes en la casa del sultán.",ids:[]},
  {title:"Consortes imperiales",desc:"Las consortes conservan los rangos consignados en sus fichas.",ids:["tarae","kenma"]},
- {title:"İkbal y cariyes",desc:"Miembros del harén con distintos rangos y situaciones personales. La pertenencia a esta categoría no presupone presentación ante el sultán.",ids:["alissa","akiko","mikael","yaku","natal","natsu","shizuka","shoyo","suna","kageyama","yaku"]},
- {title:"Servicio del harén",desc:"Personal dedicado a las tareas y la administración cotidiana de la casa interior.",ids:["kei"]}
+{
+  title: "İkbal y cariyes",
+  desc: "Miembros del harén con distintos rangos y situaciones personales. La pertenencia a esta categoría no presupone presentación ante el sultán.",
+  ids: [
+    "alissa",
+    "akiko",
+    "yaku",
+    "natsu",
+    "shizuka",
+    "shoyo",
+    "kageyama"
+  ]
+}, {title:"Servicio del harén",desc:"Personal dedicado a las tareas y la administración cotidiana de la casa interior.",ids:["kei"]}
  ];
  const all=groups.map(g=>{const list=g.ids.map(id=>people.find(p=>p.id===id)).filter((p,i,a)=>p&&a.findIndex(x=>x.id===p.id)===i);return section(g.title,g.desc,list);}).join("");
  $("#haremPositions").innerHTML=all;
