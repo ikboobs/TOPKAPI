@@ -10,11 +10,11 @@ function tags(p){return `<div class="card-tags">${p.age?`<span class="tag">${esc
 function card(p){return `<article class="character-card reveal" tabindex="0" role="button" data-person="${esc(p.id)}" aria-label="Abrir ficha de ${esc(p.name)}"><div class="character-image">${p.image?`<img src="images/${esc(p.image)}" alt="Retrato de ${esc(p.name)}" onerror="this.parentElement.innerHTML='<div class=&quot;image-placeholder&quot;>Retrato pendiente</div>'">`:`<div class="image-placeholder">Retrato pendiente</div>`}</div><div class="character-info"><span class="rank">${esc(p.rank||"Integrante de la corte")}</span><h3>${esc(p.name)}</h3>${tags(p)}<p>${esc(p.summary||p.bio||"")}</p><span class="profile-prompt">Consultar ficha ↗</span></div></article>`;}
 function section(title,desc,list){return `<section class="character-subsection"><div class="subsection-heading"><h3>${esc(title)}</h3><p>${esc(desc)}</p></div><div class="character-grid">${list.map(card).join("")||`<p class="empty-state">No hay perfiles registrados en este apartado.</p>`}</div></section>`;}
 function renderDynasty(){const order=[
-{title:"Los tres hermanos Miya",desc:"La sangre que sostiene la casa reinante.",ids:["osamu","atsumu","otoha"]},
-{title:"Consortes imperiales",desc:"Las consortes conservan sus rangos; ninguna ha sido declarada superior en materia sucesoria.",ids:["tarae","kenma"]},
-{title:"Şehzades",desc:"Hijos varones del sultán reconocidos como príncipes. La sucesión continúa sin heredero oficial.",ids:["arata","osman","osome"]},
+{title:"Alto Sultanato",desc:"La sangre que sostiene la casa reinante.",ids:["osamu","atsumu","otoha"]},
+{title:"Consortes imperiales",desc:"",ids:["tarae","kenma"]},
+{title:"Şehzades",desc:"Hijos varones del sultán reconocidos como príncipes.",ids:["arata","osman","osome"]},
 {title:"Sultanas",desc:"Hijas de la casa imperial, con rango por nacimiento y responsabilidades propias de su posición.",ids:["atsuki","zayan","osuyu"]},
-{title:"Hijos de Otoha",desc:"Sobrinos del sultán. Hiro conserva el título Sultanzade; Kenji, Hanımsultan conforme a la jerarquía particular de este universo.",ids:["hiro","kenji"]}
+{title:"Descendientes de Linea Materna.",desc:"Sobrinos del sultán.",ids:["hiro","kenji"]}
 ];
 const byId=id=>people.find(p=>p.id===id);const html=order.map(g=>section(g.title,g.desc,g.ids.map(byId).filter(Boolean))).join("");
 const other=people.filter(p=>p.group==="dinastia"&&!order.some(g=>g.ids.includes(p.id)));
@@ -37,11 +37,10 @@ function renderOffices(){
 }
 function renderHarem(){
  const groups=[
- {title:"Sultanas imperiales · Sultanlar",desc:"Integrantes de la dinastía imperial presentes en la casa del sultán.",ids:[]},
+ {title:"Sultanas imperiales · Sultanlar",desc:"",ids:["otoha"]},
  {title:"Consortes imperiales",desc:"Las consortes conservan los rangos consignados en sus fichas.",ids:["tarae","kenma"]},
 {
-  title: "İkbal y cariyes",
-  desc: "Miembros del harén con distintos rangos y situaciones personales. La pertenencia a esta categoría no presupone presentación ante el sultán.",
+  title: "İkbal y cariyes",desc: "Miembros del harén con distintos rangos y situaciones personales.",
   ids: [
     "alissa",
     "akiko",
@@ -59,13 +58,14 @@ function renderHarem(){
 }
 function renderNobility(){
  const houses=[
- {name:"Casa Ushijima",ids:["ushijima","oikawa","ruzgar","rashida"],desc:"Casa noble encabezada por Ushijima Wakatoshi. Oikawa Tōru figura como esposo y consorte, sin título propio de Bey."},
+ {name:"Casa Ushijima",ids:["ushijima","oikawa","ruzgar","rashida"],desc:"Casa noble encabezada por Wakatoshi Bey."},
  {name:"Casa Bokuto",ids:["bokuto","akaashi","bokuto-son"],desc:"Casa vinculada a la nobleza militar y a la administración de sus dominios."},
- {name:"Casa Kuroo-Daishō",ids:["kuroo","daisho","kuroo-son"],desc:"Casa con vínculos militares, comerciales y territoriales."},
+ {name:"Casa Kuroo",ids:["kuroo","daisho","kuroo-son"],desc:"Casa con vínculos militares, comerciales y territoriales."},
  {name:"Casa Tendō",ids:["tendo"],desc:"Casa individual registrada en torno a Satori Tendō."},
  {name:"Casa Sakusa",ids:["sakusa"],desc:"Casa individual de rango Pachá."},
  {name:"Casa Iwaizumi",ids:["iwaizumi"],desc:"Casa noble de tradición militar y administración de dominios."},
- {name:"Casa Lev Haiba",ids:["lev"],desc:"Casa individual de nobleza de origen extranjero."},
+ {name:"Casa Haiba",ids:["lev"],desc:"Casa de la nobleza de origen extranjero."},
+ {name:"Casa Lev Haiba",ids:["issa"],desc:"Casa de la noblezade estatus perdido."},
  {name:"Casas nobles por completar",ids:[],desc:"Las casas adicionales se incorporarán cuando sus fichas y vínculos estén registrados."}
  ];
  const actual=houses.map(h=>({...h,members:h.ids.map(id=>people.find(p=>p.id===id)).filter(Boolean)})).filter(h=>h.members.length);
