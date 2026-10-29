@@ -86,6 +86,19 @@ export default {
       "gender": "Masculino"
     },
     {
+      "id": "svet",
+      "name": "Svet",
+      "age": "20",
+      "group": "harem",
+      "rank": "Cariye",
+      "caste": "Omega",
+      "aroma": "Albaricoque.",
+      "image": "svet.jpg",
+      "summary": ".",
+      "bio": ``,
+      "gender": "Femenino"
+    },
+    {
       "id": "akiko",
       "name": "Akiko",
       "age": "20",
