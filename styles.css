@@ -1115,4 +1115,45 @@ footer p {
     opacity: 1;
     transform: none;
   }
+  
+/* CORRECCIÓN FORZADA: retratos cuadrados */
+.character-card .character-image {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 1 / 1 !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+.character-card .character-image img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: none !important;
+  aspect-ratio: 1 / 1 !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+/* Evita que los estilos anteriores impongan otra altura */
+.character-card > img {
+  height: auto !important;
+  aspect-ratio: 1 / 1 !important;
+}
+
+.character-card .image-placeholder {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  aspect-ratio: 1 / 1 !important;
+}
+
+@media (max-width: 480px) {
+  .character-card img,
+  .character-card .image-placeholder {
+    height: 100% !important;
+  }
+}
+
 }
