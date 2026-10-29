@@ -11,8 +11,8 @@ function card(p){return `<article class="character-card reveal" tabindex="0" rol
 function section(title,desc,list){return `<section class="character-subsection"><div class="subsection-heading"><h3>${esc(title)}</h3><p>${esc(desc)}</p></div><div class="character-grid">${list.map(card).join("")||`<p class="empty-state">No hay perfiles registrados en este apartado.</p>`}</div></section>`;}
 function renderDynasty(){const order=[
 {title:"Alto Sultanato",desc:"La sangre que sostiene la casa reinante.",ids:["osamu","atsumu","otoha"]},
-{title:"Consortes imperiales",desc:"",ids:["tarae","kenma"]},
-{title:"Şehzades",desc:"Hijos varones del sultán reconocidos como príncipes.",ids:["arata","osman","osome"]},
+{title:"Consortes imperiales",desc:"",ids:["tarae","kenma","shimizu"]},
+{title:"Şehzades",desc:"Hijos varones del sultán reconocidos como príncipes.",ids:["arata","osman","osome","shizuku"]},
 {title:"Sultanas",desc:"Hijas de la casa imperial, con rango por nacimiento y responsabilidades propias de su posición.",ids:["atsuki","zayan","osuyu"]},
 {title:"Descendientes por Linea Materna.",desc:"Sobrinos del sultán.",ids:["hiro","kenji"]}
 ];
