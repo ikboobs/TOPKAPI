@@ -64,7 +64,7 @@ export default {
     {
       "name": "Bostancıbaşı",
       "translation": "Jefe de jardines y guardias exteriores",
-      "holder": "Ojiro",
+      "holder": "Aran",
       "purpose": "Supervisa jardines, espacios exteriores y tareas de vigilancia asignadas.",
       "notes": ""
     },
