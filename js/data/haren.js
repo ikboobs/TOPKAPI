@@ -25,7 +25,7 @@ export default {
       "gender": "Masculino",
       "summary": "Servidora experimentada que supervisa a las jóvenes aprendices y se encarga de habitaciones, vestuario, educación doméstica o tareas administrativas",
       "bio": "",
-      "relations": []
+      "relations": ["Hermana: Svet" ],
     },
     {
       "id": "shizuka",
@@ -37,7 +37,7 @@ export default {
       "aroma": "Cera de vela apagada, incienso blanco y niebla de bosque",
       "image": "shizuka.jpg",
       "summary": "Administradora principal de la residencia y aposentos de Otoha Sultán, con responsabilidades de organización, supervisión del personal y gestión de asuntos domésticos.",
-        "bio": ``,
+      "bio": ``,
       "gender": "Femenino"
     },
     {
@@ -96,6 +96,7 @@ export default {
       "image": "svet.jpg",
       "summary": ".",
       "bio": ``,
+      "relations": ["Hermano: Lev" ],
       "gender": "Femenino"
     },
     {
