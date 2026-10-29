@@ -2,7 +2,7 @@ export const offices = [
   {
     "name": "Valide Sultan",
     "holder": "Otoha — funciones provisionales",
-    "purpose": "Madre del sultán y máxima autoridad femenina tradicional de la casa imperial. En este rol, Otoha cumple estas funciones mientras la titular está ausente.","notes": "Familia imperial, responsables del harén y personal autorizado."
+    "purpose": "Madre del sultán y máxima autoridad femenina tradicional de la casa imperial. Otoha cumple estas funciones mientras la titular está ausente.","notes": "Familia imperial, responsables del harén y personal autorizado."
   },
   {
     "name": "Gran Visir",
@@ -95,14 +95,14 @@ export const sections = {
   "harem": [
     {
       "title": "Cariye / Acemi",
-      "text": "Cariye designa a una integrante del servicio femenino o del harén; acemi es una persona recién incorporada o en formación dentro de la adaptación del grupo. No implica automáticamente relación con el sultán.",
-      "people": "Cariye: Shizuka (asignada a Otoha), Natsu (ascendida a sirvienta y nodriza de los hijos de Tarae). Acemi: vacante.",
+      "text": "Integrante del servicio femenino o del harén; acemi es una persona recién incorporada o en formación dentro de la adaptación del grupo. No implica automáticamente relación con el sultán.",
+      "people": "Shizuka (asignada a Otoha Sultan), Natsu (asignada a Tarae Haseki Sultan).",
       "notes": "Pueden interactuar con las personas de su residencia y con superiores autorizadas. Audiencias con el sultán no se presumen."
     },
     {
       "title": "Gözde / İkbal",
-      "text": "Gözde puede usarse en el rol para una persona que ha llamado la atención del sultán. İkbal debe definirse en la convención interna del grupo como rango de favor o categoría especial; no conviene asignarlo solo porque alguien viva en el harén.",
-      "people": "Alissa: presentada ante el sultán y convocada a sus aposentos; categoría final por confirmar. Morisuke ocupa el cargo administrativo de Kethüda Kadın y no se clasifica aquí como consorte.",
+      "text": "Persona que ha llamado la atención del sultán.rango de favor.",
+      "people": "Alissa: presentada ante el sultán y convocada a sus aposentos;",
       "notes": "Acceso, privilegios y obligaciones dependen de la categoría acordada y de la autorización del sultán."
     },
     {
@@ -113,7 +113,7 @@ export const sections = {
     },
     {
       "title": "Administración del harén",
-      "text": "La jerarquía de esta adaptación es: Otoha como Valide en funciones, Morisuke como Kethüda Kadın, Hazinedar Usta, Usta, Kalfa, cariyes y acemi. Los cargos vacantes siguen abiertos.",
+      "text": "Otoha como Valide en funciones, Morisuke como Kethüda Kadın, Hazinedar Usta, Usta, Kalfa, cariyes y acemi. Los cargos vacantes siguen abiertos.",
       "people": "Otoha: Valide en funciones. Morisuke: Kethüda Kadın. Hazinedar Usta, Usta y Kalfa: vacantes.",
       "notes": "Cada rango puede dar instrucciones solo dentro de sus atribuciones; las decisiones importantes se elevan a la autoridad superior."
     }
