@@ -34,6 +34,10 @@ function renderOffices(){
  const node=o=>`<div class="hierarchy-node compact"><strong>${esc(o.name)}</strong><span>${esc(o.translation)} · ${esc(o.holder)}</span></div>`;
  $("#administrationDiagram").innerHTML=`<div class="hierarchy-root">${diagramNode("Saray-ı Hümâyun","Servicio y administración del palacio","Organización de los servicios internos y de los accesos autorizados.")}</div><div class="hierarchy-connector"></div><div class="hierarchy-branches">${positions.map(node).join("")}</div>`;
  $("#administrationGrid").innerHTML=positions.map(o=>`<article class="office-card reveal"><p class="eyebrow">${o.holder==="Vacante"?"Convocatoria abierta":"Cargo ocupado"}</p><h3>${esc(o.name)}</h3><p class="office-subtitle">${esc(o.translation)}</p><p class="office-holder">Lo ocupa: <strong>${esc(o.holder)}</strong></p><p>${esc(o.purpose)}</p><p class="access-line"><strong>Notas:</strong> ${esc(o.notes||"El acceso y las atribuciones se rigen por el protocolo del palacio.")}</p></article>`).join("");
+$("#administrationCharacters").innerHTML = people
+  .filter(p => ["tadashi", "aran"].includes(p.id))
+  .map(card)
+  .join("");
 }
 function renderHarem(){
  const groups=[
