@@ -10,9 +10,9 @@ export default {
       "aroma": "Cedro y canela",
       "image": "bokuto.jpg",
       "summary": "Dignatario de trayectoria militar, reconocido por su estrategia y disciplina.",
-      "bio": "Su formación abarca estrategia, equitación y administración. Está casado con Keiji, noble y consejero personal.",
+      "bio": ``,
       "relations": [
-        "Responde a: OsamuSultan"
+        "Consorte: Keiji", "Hijo: "
       ],
       "gender": "Masculino"
     },
