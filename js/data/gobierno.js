@@ -10,7 +10,7 @@ export default [
     "image": "bokuto.jpg",
     "summary": "Dignatario de trayectoria militar, reconocido por su estrategia y disciplina.",
     "bio": "Su formación abarca estrategia, equitación y administración. Está casado con Keiji, noble y consejero personal.",
-    "relations": ["Responde a: OsamuSultan"],
+    "relations": ["Responde a: Osamu Sultan"],
     "gender": "Masculino"
   },
   {
@@ -19,7 +19,7 @@ export default [
     "age": "40",
     "group": "gobierno",
     "rank": "Noble",
-    "caste": "No consignada",
+    "caste": "",
     "aroma": "No consignado",
     "image": "akaashi.jpg",
     "summary": "Noble y consejero de confianza dentro de la casa de Bokuto.",
