@@ -228,7 +228,7 @@ export default [
     "caste": "Beta",
     "aroma": "Mora azul, muy tenue",
     "image": "hiro.jpg",
-    "summary": "",
+    "summary": "Criado dentro del palacio bajo supervisión de tutores, nodrizas y servidores, con precedencia determinada por su linaje y posición dinástica",
     "bio": ``,
     "relations": [
       "Madre: Otoha Sultán.",
@@ -247,7 +247,7 @@ export default [
     "caste": "Omega",
     "aroma": "Leche de almendras, agua de rosas, azahar y miel",
     "image": "kenji.jpg",
-    "summary": "",
+    "summary": "Criado dentro del palacio bajo supervisión de tutores, nodrizas y servidores, con precedencia determinada por su linaje y posición dinástica",
     "bio": ``,
     "relations": [
       "Madre: Otoha Sultán.",
