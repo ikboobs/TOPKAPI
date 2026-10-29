@@ -24,10 +24,10 @@ export default {
       "image": "kei.jpg",
       "gender": "Masculino",
       "summary": "Servidora experimentada que supervisa a las jóvenes aprendices y se encarga de habitaciones, vestuario, educación doméstica o tareas administrativas",
-      "bio": ""
+      "bio": "",
       "relations": []
-    }
-        {
+    },
+    {
       "id": "shizuka",
       "name": "Shizuka",
       "age": "27",
