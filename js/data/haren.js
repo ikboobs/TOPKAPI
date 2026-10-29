@@ -7,60 +7,55 @@ export default {
       "group": "harem",
       "rank": "Kethüda Kadın",
       "caste": "Omega",
-      "aroma": "No consignado",
+      "aroma": "Incienso negri, hojas de tabaco crudo y almizcle blanco.",
       "image": "yaku.jpg",
-      "summary": "Administra las tareas cotidianas del harén bajo la autoridad de Otoha.",
-      "bio": "Morisuke ocupa el puesto de Kethüda Kadın dentro de la organización del palacio. Coordina las labores diarias, distribuye tareas entre el personal y eleva los asuntos importantes a Otoha, Valide en funciones. Este cargo es administrativo y no implica ser consorte del sultán.",
-      "relations": [
-        "Responde a: OtohaSultana"
-      ],
+      "summary": "Administradora principal, coordinaba el personal femenino, las tareas domésticas y las necesidades de las residentes de mayor rango.",
+      "bio": ``,
       "gender": "Masculino"
     },
+        {
+      "id": "shizuka",
+      "name": "Shizuka",
+      "age": "27",
+      "group": "harem",
+      "rank": "Kethüda Kadın de Otoha Sultán",
+      "caste": "Omega",
+      "aroma": "Cera de vela apagada, incienso blanco y niebla de bosque",
+      "image": "shizuka.jpg",
+      "summary": "Administradora principal de la residencia y aposentos de Otoha Sultán, con responsabilidades de organización, supervisión del personal y gestión de asuntos domésticos.",
+        "bio": ``,
+      "gender": "Femenino"
+    },
     {
-      "id": "natal",
+      "id": "natsu",
       "name": "Natsu",
       "age": "19",
       "group": "harem",
-      "rank": "Cariye",
+      "rank": "Cariye Personal de Tarae Haseki Sultan",
       "caste": "Omega",
-      "aroma": "No consignado",
-      "image": "natal.jpg",
-      "summary": "Llegó al palacio buscando reunirse con su hermano gemelo.",
-      "bio": "Fue criada entre courtesanas y llegó al palacio mediante una operación para buscar a su hermano. No consta que haya sido presentada ante el sultán.",
+      "aroma": "Semillas de girasol tostadas, pan recien horneado y miel silvestre.",
+      "image": "natsu.jpg",
+      "summary": "Servidora asignada a una mujer de la familia imperial o a una consorte, ayudaba con el vestido, el peinado, el aseo, los objetos personales y las necesidades cotidianas de su señora.",
+      "bio": ``,
       "relations": [
-        "Hermanos: HinataConcubino",
-        "Responde a: TaraeHasekiSultan"
+        "Hermano: Shoyo",
       ],
-      "gender": "Masculino"
+      "gender": "Femenino"
     },
     {
       "id": "shoyo",
-      "name": "Hinata",
+      "name": "Shoyo",
       "age": "19",
       "group": "harem",
       "rank": "Cariye",
       "caste": "Omega",
-      "aroma": "No consignado",
+      "aroma": "Naranja con toques de miel y vainilla.",
       "image": "shoyo.jpg",
-      "summary": "Joven integrante del harén que espera encontrar un lugar propio en la corte.",
-      "bio": "Su historia menciona el deseo de obtener favor y la esperanza de que un heredero mejore su posición, pero no confirma que ya haya sido presentado ante el sultán.",
+      "summary": "Dependiente del servicio palaciego que recibía formación en etiqueta, música, bordado, labores domésticas y otras habilidades, con posibilidades de ascender a puestos de mayor responsabilidad.",
+      "bio": ``,
       "relations": [
-        "Hermanos: NatsuCariye"
+        "Hermana: Natsu",
       ],
-      "gender": "Masculino"
-    },
-    {
-      "id": "suna",
-      "name": "Rintarō",
-      "age": "20",
-      "group": "harem",
-      "rank": "Cariye",
-      "caste": "Omega",
-      "aroma": "No consignado",
-      "image": "suna.jpg",
-      "summary": "Fue enviado al palacio por su familia; su posición futura permanece abierta.",
-      "bio": "Su ficha no confirma que haya sido presentado ante el sultán ni que haya obtenido favor.",
-      "relations": [],
       "gender": "Masculino"
     },
     {
@@ -70,11 +65,10 @@ export default {
       "group": "harem",
       "rank": "Cariye",
       "caste": "Omega",
-      "aroma": "No consignado",
-      "image": "kageyama.jpg",
-      "summary": "Ingresó al palacio por deudas familiares; su asignación debe respetar el registro del grupo.",
-      "bio": "La ficha indica que permanece en la residencia de su «señor», pero no aclara si ese señor es el sultán o un noble. Por eso no se le asigna todavía el rango de gözde o ikbal.",
-      "relations": [],
+      "aroma": "Café negro y chocolate.",
+      "image": "shota.jpg",
+      "summary": "Dependiente del servicio palaciego que recibía formación en etiqueta, música, bordado, labores domésticas y otras habilidades, con posibilidades de ascender a puestos de mayor responsabilidad.",
+      "bio": ``,
       "gender": "Masculino"
     },
     {
@@ -84,11 +78,10 @@ export default {
       "group": "harem",
       "rank": "İkbal",
       "caste": "Omega",
-      "aroma": "No consignado",
+      "aroma": "Rosas",
       "image": "akiko.jpg",
-      "summary": "Llegó al harén tras las deudas de su familia; su posición depende de la trama.",
-      "bio": "La ficha no confirma que haya sido presentada ante el sultán ni que haya recibido su favor.",
-      "relations": [],
+      "summary": "Persona que atrajo la atención o el favor del sultán, aunque todavía no posee el rango de una consorte consolidada.",
+      "bio": ``,
       "gender": "Femenino"
     },
     {
@@ -98,47 +91,11 @@ export default {
       "group": "harem",
       "rank": "İkbal",
       "caste": "Omega",
-      "aroma": "No consignado",
+      "aroma": "Jazmin blanco, flor de naranjo y dulce de vainilla.",
       "image": "alissa.jpg",
-      "summary": "De origen extranjero, fue presentada ante el sultán y convocada a sus aposentos.",
-      "bio": "De origen extranjero, comenzó como sirvienta y fue asignada al cuidado de habitaciones privadas de una sultana. Su belleza llamó la atención y fue recomendada al sultán; la ficha confirma que fue presentada y recibió una convocatoria.",
-      "relations": [
-        "Hermanos: LevBey"
-      ],
+      "summary": "Persona que atrajo la atención o el favor del sultán, aunque todavía no posee el rango de una consorte consolidada.",
+      "bio": ``,
       "gender": "Femenino"
     },
-    {
-      "id": "shizuka",
-      "name": "Shizuka",
-      "age": "27",
-      "group": "harem",
-      "rank": "Cariye",
-      "caste": "Omega",
-      "aroma": "Cera de vela apagada, incienso blanco y niebla de bosque",
-      "image": "shizuka.jpg",
-      "summary": "Sirvienta personal de Otoha; discreta, observadora y de confianza creciente.",
-      "bio": "De origen ruteno, perdió su estabilidad familiar durante la conquista y fue incorporada a la comitiva imperial. Está destinada al servicio de Otoha, a quien todavía debe conocer al comenzar su nueva etapa.",
-      "relations": [
-        "Responde a: OtohaSultana"
-      ],
-      "gender": "Masculino"
-    },
-    {
-      "id": "natsu",
-      "name": "Natsu",
-      "age": "19",
-      "group": "harem",
-      "rank": "Cariye · nodriza",
-      "caste": "Omega",
-      "aroma": "No consignado",
-      "image": "natsu.jpg",
-      "summary": "Sirve a Tarae y cuida de sus hijos como nodriza.",
-      "bio": "Su ficha previa la describe como una concubina/cariye que ingresó al palacio por una trama personal. En la organización actual del rol asciende a sirvienta y nodriza de los niños de Tarae.",
-      "relations": [
-        "Hermanos: HinataConcubino",
-        "Responde a: TaraeHasekiSultan"
-      ],
-      "gender": "Masculino"
-    }
   ]
 };
