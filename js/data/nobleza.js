@@ -36,7 +36,7 @@ export default {
     },
     {
       "id": "kuroo",
-      "name": "Kuroo",
+      "name": "Tetsuro",
       "age": "38",
       "group": "nobleza",
       "rank": "Pashá",
