@@ -248,9 +248,7 @@ export default [
     "aroma": "Leche de almendras, agua de rosas, azahar y miel",
     "image": "kenji.jpg",
     "summary": "",
-    "bio": `Hija menor del sultán, no es la más apegada al sultán, más si a su mamá: Kenma, no es una persona social o que prefiera estar entre las personas ¿Por qué? Sienten un repentino asco al estar rodeada, solo prefiere estar con su familia y aún asi, siempre esta pegada a su madre, no tiene un gran sentido de las emociones, apenas y distingue entre bien y mal. Sus cosas favoritos son: pasar tiempo con su madre, su madre, jugar con su madre, comer dulces con su madre, ver insectos con su madre, ver animales con su madre y ¿Ya mencione estar con su madre?
-Prefiere comer a escondidas de todos, a diferencia de sus hermanos, ella es la menos codicia en la atención, simplemente no le gusta, se la pasa leyendo libros sobre animales, insectos y hierbas, siendo menor tiene un amplio conocimiento sobre la naturaleza, más que nada en venenos. Esto se lo plática todo a su madre, le dice _todo_, come muchos dulces, demasiados para una niña, más esto no le afecta en nada en la energía, se mantiene calmada en cada asunto, y muy pocas(muchas) veces experimenta con la familia, poniendo hierbas en las bebidas o comidas de estos. 
-Ama jugar Satranç con su madre, ella sabe que algún momento le va a ganar.`,
+    "bio": ``,
     "relations": [
       "Madre: Otoha Sultán.",
       "Hermano: Hiro sultanzade.", 
