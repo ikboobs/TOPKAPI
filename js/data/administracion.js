@@ -17,26 +17,12 @@ export default {
       ],
       "gender": "Masculino"
     },
-    {
-      "id": "kei",
-      "name": "Kei",
-      "age": "",
-      "group": "administracion",
-      "rank": "Kızlar Ağası",
-      "caste": "No consignada",
-      "aroma": "No consignado",
-      "image": "kei.jpg",
-      "gender": "Masculino",
-      "summary": "Responsable de la organización del servicio masculino autorizado y de los accesos vinculados al harén.",
-      "bio": "Kei ocupa el cargo de Kızlar Ağası dentro de la adaptación de la corte. Su autoridad se concentra en la coordinación del personal masculino autorizado y en el cumplimiento de las reglas de acceso a las dependencias interiores. Su edad, casta y aroma no constan en la ficha disponible.",
-      "relations": []
-    }
   ],
   "positions": [
     {
       "name": "Kızlar Ağası",
       "translation": "Administrador del harén",
-      "holder": "Kei",
+      "holder": "Vacante",
       "purpose": "Coordina el servicio autorizado y la organización interna del harén.",
       "notes": "El cargo no concede acceso irrestricto a las dependencias privadas."
     },
@@ -78,9 +64,9 @@ export default {
     {
       "name": "Kalfa",
       "translation": "Supervisora experimentada",
-      "holder": "Vacante",
+      "holder": "Kei",
       "purpose": "Coordina labores cotidianas y acompaña la formación del personal del harén.",
-      "notes": "El puesto permanece disponible."
+      "notes": ""
     }
   ]
 };
