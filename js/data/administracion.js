@@ -5,15 +5,14 @@ export default {
       "name": "Tadashi",
       "age": "22",
       "group": "administracion",
-      "rank": "Guardia personal",
+      "rank": "Muhafız personal de la Haseki Sultan",
       "caste": "Alfa",
-      "aroma": "No consignado",
+      "aroma": "Maresia",
       "image": "tadashi.jpg",
       "summary": "Protege a Tarae y a sus hijos; su acceso se limita a las zonas autorizadas.",
-      "bio": "Su servicio está dedicado a la seguridad de Tarae. No busca protagonismo ni acceso indiscriminado a las residencias internas.",
+      "bio": "",
       "relations": [
-        "Hermanos: TaraeHasekiSultan",
-        "Responde a: TaraeHasekiSultan"
+        "Hermana: Tarae Haseki Sultan",
       ],
       "gender": "Masculino"
     },
@@ -28,7 +27,7 @@ export default {
     },
     {
       "name": "Muhafız-ı Hassa",
-      "translation": "Guardia personal (adaptación del rol)",
+      "translation": "Guardia personal)",
       "holder": "Tadashi",
       "purpose": "Protege a Tarae y a sus hijos conforme a las órdenes de su señora.",
       "notes": "Acceso limitado a las zonas y personas cuya protección tiene encomendada."
