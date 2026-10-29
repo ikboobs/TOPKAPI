@@ -2,7 +2,7 @@ export default {
   "characters": [
     {
       "id": "bokuto",
-      "name": "Bokuto",
+      "name": "Kotaro",
       "age": "43",
       "group": "nobleza",
       "rank": "Pashá",
