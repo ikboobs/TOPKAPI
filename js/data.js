@@ -6,7 +6,7 @@ import nobleza from "./data/nobleza.js";
 
 const TOPKAPI = {
   characters: [
-    ...dinastia.characters,
+    ...dinastia,
     ...haren.characters,
     ...administracion.characters,
     ...nobleza.characters
