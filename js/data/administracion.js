@@ -17,6 +17,20 @@ export default {
       ],
       "gender": "Masculino"
     }
+    {
+      "id": "aran",
+      "name": "Aran",
+      "age": "26",
+      "group": "administracion",
+      "rank": "Bostancıbaşı",
+      "caste": "Alfa",
+      "aroma": "Madera de cedro, cuero negro y ambar aumado.",
+      "image": "aran.jpg",
+      "summary": "",
+      "bio": "",
+      "relations": [ "" ],
+      "gender": "Masculino"
+    }
   ],
   "positions": [
     {
@@ -50,9 +64,9 @@ export default {
     {
       "name": "Bostancıbaşı",
       "translation": "Jefe de jardines y guardias exteriores",
-      "holder": "Vacante",
+      "holder": "Ojiro",
       "purpose": "Supervisa jardines, espacios exteriores y tareas de vigilancia asignadas.",
-      "notes": "El puesto permanece disponible."
+      "notes": ""
     },
     {
       "name": "Hazinedar Usta",
