@@ -14,7 +14,7 @@ function renderDynasty(){const order=[
 {title:"Consortes imperiales",desc:"",ids:["tarae","kenma"]},
 {title:"Şehzades",desc:"Hijos varones del sultán reconocidos como príncipes.",ids:["arata","osman","osome"]},
 {title:"Sultanas",desc:"Hijas de la casa imperial, con rango por nacimiento y responsabilidades propias de su posición.",ids:["atsuki","zayan","osuyu"]},
-{title:"Descendientes de Linea Materna.",desc:"Sobrinos del sultán.",ids:["hiro","kenji"]}
+{title:"Descendientes por Linea Materna.",desc:"Sobrinos del sultán.",ids:["hiro","kenji"]}
 ];
 const byId=id=>people.find(p=>p.id===id);const html=order.map(g=>section(g.title,g.desc,g.ids.map(byId).filter(Boolean))).join("");
 const other=people.filter(p=>p.group==="dinastia"&&!order.some(g=>g.ids.includes(p.id)));
@@ -65,7 +65,7 @@ function renderNobility(){
  {name:"Casa Sakusa",ids:["sakusa"],desc:"Casa individual de rango Pachá."},
  {name:"Casa Iwaizumi",ids:["iwaizumi"],desc:"Casa noble de tradición militar y administración de dominios."},
  {name:"Casa Haiba",ids:["lev"],desc:"Casa de la nobleza de origen extranjero."},
- {name:"Casa Lev Haiba",ids:["issa"],desc:"Casa de la noblezade estatus perdido."},
+ {name:"Casa Matsukawa",ids:["issa"],desc:"Casa de estatus perdido."},
  {name:"Casas nobles por completar",ids:[],desc:"Las casas adicionales se incorporarán cuando sus fichas y vínculos estén registrados."}
  ];
  const actual=houses.map(h=>({...h,members:h.ids.map(id=>people.find(p=>p.id===id)).filter(Boolean)})).filter(h=>h.members.length);
