@@ -1,3 +1,4 @@
+
 export default {
   "characters": [
     {
@@ -12,10 +13,10 @@ export default {
       "summary": "Protege a Tarae y a sus hijos; su acceso se limita a las zonas autorizadas.",
       "bio": "",
       "relations": [
-        "Hermana: Tarae Haseki Sultan",
+        "Hermana: Tarae Haseki Sultan"
       ],
       "gender": "Masculino"
-    },
+    }
   ],
   "positions": [
     {
@@ -27,7 +28,7 @@ export default {
     },
     {
       "name": "Muhafız-ı Hassa",
-      "translation": "Guardia personal)",
+      "translation": "Guardia personal",
       "holder": "Tadashi",
       "purpose": "Protege a Tarae y a sus hijos conforme a las órdenes de su señora.",
       "notes": "Acceso limitado a las zonas y personas cuya protección tiene encomendada."
