@@ -1,255 +1,262 @@
-export default {
-  "characters": [
-    {
-      "id": "osamu",
-      "name": "Osamu",
-      "age": "30 ",
-      "group": "dinastia",
-      "rank": "Sultán",
-      "caste": "Alfa",
-      "aroma": "Incienso y té verde",
-      "image": "osamu.jpg",
-      "summary": "Busca Consolidar su poder y asegurar la continuidad de su dinastía, protegiendo a sus hermanos y preservando la estabilidad del imperio por encima de cualquier sacrificio.",
-      "bio": "Criado desde pequeño para liderar, Osamu fue consciente de que él y su hermano eran el sostén de su madre cuando el antiguo sultán muriera. Por ello se dedicó a sus estudios, aprendió el arte de la guerra y cumplió sus responsabilidades como Şehzade. Sus campañas militares y la buena administración de su provincia le permitieron ser nombrado heredero.\n      Su ascenso al trono consolidó su poder y puso fin a la influencia de las mujeres de su padre que amenazaban la posición de su madre. La única excepción a la ley del fratricidio fue Atsumu, su gemelo y complemento. Ambos habían compartido toda su existencia y deseaban permanecer juntos hasta el final, ya fuera en el campo de batalla o alcanzados por la vejez. Atsumu renunció a formar una familia propia para permanecer junto a su hermano y preservar la estabilidad del Imperio.\n      Durante los primeros años de su gobierno, sus hermanos, Atsumu y la pequeña Otoha, lo ayudaron a establecer bases sólidas para el reinado. Tras la muerte de su madre, Osamu confió a Otoha las responsabilidades de la Valide. Era una de las personas en quien más confiaba y deseaba reconocer su posición dentro de la corte.\n      Como padre, ha recibido críticas por tener hijos con distintas consortes. Sin embargo, considera que asegurar la continuidad de la dinastía es parte de su deber, aunque todavía no ha designado un heredero oficial.",
-      "relations": [
-        "Hermanos: AtsumuSehzade, OtohaSultana"
-      ],
-      "note": "El acceso privado a él depende de sus órdenes, del protocolo y de la trama.",
-      "gender": "Masculino",
-      "subgroup": "Estirpe del Trono"
-    },
-    {
-      "id": "atsumu",
-      "name": "Atsumu",
-      "age": "30",
-      "group": "dinastia",
-      "rank": "Şehzade",
-      "caste": "Alfa",
-      "aroma": "Corteza y miel",
-      "image": "atsumu.jpg",
-      "summary": "Su ambición no reside en el trono, sino en permanecer al lado de su hermano, protegiendo su corona y preservando el vínculo que siempre ha sido el centro de su mundo.",
-      "bio": "Nacido en la alta cuna, criado y forjado para un puesto que jamás fue suyo. Él admira a su otra mitad, alma de su corazón que guía el camino ejerciendo el poder y la gloria sobre todos. Observar y acompañar a su hermano siempre fue su lugar y adoración, aunque esta última se comparte hacia su luna.",
-      "relations": [
-        "Hermanos: OsamuSultan, OtohaSultana",
-        "Responde a: OsamuSultan"
-      ],
-      "note": "Puede tratar con la familia imperial, dignatarios y personal autorizado.",
-      "gender": "Masculino",
-      "subgroup": "Estirpe del Trono"
-    },
-    {
-      "id": "otoha",
-      "name": "Otoha",
-      "age": "28",
-      "group": "dinastia",
-      "rank": "Sultana",
-      "caste": "Alfa",
-      "aroma": "Lavanda, ciruela y pimienta rosa; fondo de cacao y vainilla",
-      "image": "otoha.jpg",
-      "summary": "Procura proteger a su familia y conservar el equilibrio de la corte mediante la prudencia, sin exhibir abiertamente su influencia.",
-      "bio": "Otoha nació y creció entre los privilegios y las sutilezas de la corte, donde aprendió a desenvolverse con la gracia propia de una princesa y la perspicacia que exige su posición. Su sonrisa cálida y su conversación amena le han permitido ganarse el aprecio de quienes la rodean; sabe convertir los comentarios más triviales en oportunidades para acercar voluntades sin exhibir abiertamente su influencia.\n      Mientras cultiva la estima de la gente fuera del palacio, conserva dentro de sus muros una presencia respetada. Tras la muerte de su madre, su hermano Osamu le confió las responsabilidades de la Valide. Viuda y madre de Hiro y Kenji, procura proteger a su familia y mantener el equilibrio de la corte mediante la prudencia, consciente de que incluso los gestos más amables pueden tener consecuencias políticas.",
-      "relations": [
-        "Hermanos: OsamuSultan, AtsumuSehzade",
-        "Responde a: OsamuSultan"
-      ],
-      "note": "Puede interactuar con la familia imperial, las responsables del harén, sus servidores, dignatarios recibidos en audiencia y las casas nobles con las que mantenga vínculos. Su autoridad como Valide es funcional y delegada: no la convierte en madre biológica del sultán.",
-      "gender": "Femenino",
-      "subgroup": "Estirpe del Trono"
-    },
-    {
-      "id": "tarae",
-      "name": "Tarae",
-      "age": "28",
-      "group": "dinastia",
-      "rank": "Haseki Sultan",
-      "caste": "Omega",
-      "aroma": "Flor de osmanthus y té",
-      "image": "tarae.jpg",
-      "summary": "Asegurar el lugar de sus hijos en la dinastía otomana y preservar su legado, cultivando la confianza del sultán sin renunciar a la identidad que la distingue.",
-      "bio": "Proveniente de la dinastía, tanto Tarae como su hermano fueron enviados bajo el pretexto de ser un regalo a la región otomana. Específicamente, Tarae fue la encargada de representar a sus parientes como una invitación simbólica para abrir relaciones con los sultanes. A una edad muy temprana llegó a las puertas del Imperio, adaptándose a las costumbres y la cultura de su esposo, pero sin dejar de lado su herencia ni su origen.\n      Es por eso que ha sido una presencia curiosa dentro del harén. El sonido singular del guqin es la primera prueba de su afiliación inicial y, a la vez, una muestra de la compasión del sultán al permitirle conservar un recuerdo de su hogar. Sus pasos delicados y silenciosos al tratar con los demás hacen que sus momentos de privacidad y la energía que reserva únicamente para sus seres amados sean aún más especiales. Es letrada, y se cree que esto le ha ayudado a comprender mejor a su esposo y las responsabilidades que conlleva su posición.\n      Sin embargo, no hay nada que le llene más de orgullo que sus hijos. No solo por su belleza, que considera una combinación perfecta entre su propia elegancia y la naturaleza dominante de su esposo, sino también por su inteligencia y su manera de percibir la vida",
-      "relations": [
-        "Hermanos: TadashiGuardia",
-        "Responde a: OsamuSultan"
-      ],
-      "note": "Recibe a miembros de la familia imperial y personal asignado; las audiencias con dignatarios dependen de la invitación y el protocolo.",
-      "gender": "Femenino",
-      "subgroup": "Consortes"
-    },
-    {
-      "id": "kenma",
-      "name": "Kenma",
-      "age": "29",
-      "group": "dinastia",
-      "rank": "Baş Kadın",
-      "caste": "Omega",
-      "aroma": "Manzana, miel y rosas; matiz amargo",
-      "image": "kenma.jpg",
-      "summary": "",
-      "bio": "",
-      "relations": [
-        "Responde a: OsamuSultan"
-      ],
-      "note": "Puede interactuar con sus hijos, otras consortes, la familia imperial y su personal autorizado. Su residencia no implica acceso irrestricto a todos los espacios del palacio.",
-      "gender": "Masculino",
-      "subgroup": "Consortes"
-    },
-    {
-      "id": "arata",
-      "name": "Arata",
-      "age": "16",
-      "group": "dinastia",
-      "rank": "Şehzade",
-      "caste": "Alfa",
-      "aroma": "Hierbabuena y romero",
-      "image": "arata.jpg",
-      "summary": "Proteger a su madre y a su tía mientras conquista la autonomía necesaria para dedicarse a la medicina, sin traicionar a su padre ni permitir que su propia naturaleza lo convierta en una pieza más de las intrigas dinásticas.",
-      "bio": "Nació en el seno de la dinastía y su condición de alfa reforzó las expectativas depositadas sobre él. Se esperaba que creciera para convertirse en un hombre imponente, severo y capaz de inspirar temor; sin embargo, Arata nunca encajó del todo en aquella imagen. Su personalidad, sus modales refinados han provocado que algunos miembros de la corte lo consideren demasiado femenino para un alfa de sangre imperial. Los rumores circulan entre los pasillos del palacio, disfrazados de comentarios inocentes y conversaciones a media voz. Desde joven, se ha sentido atraído por los conocimientos de los médicos, los herbolarios y los boticarios del Imperio. Le fascina el estudio de las plantas medicinales, la preparación de ungüentos y remedios. Ha procurado aprender cuanto puede, aprovechando las oportunidades que le ofrece el palacio para acercarse a quienes poseen esos conocimientos, consciente de que difícilmente podría realizarlo sin entrar en conflicto con las obligaciones de su linaje. Pese a todo, haría lo que fuera por su madre y su tía. La idea de traicionar a su padre nunca le ha cruzado por la mente. Odia a todos los hijos de su padre por igual.",
-      "relations": [
-        "Padre: OsamuSultan",
-        "Madre: TaraeHasekiSultan",
-        "Hermanos: AtsukiSultana"
-      ],
-      "note": "Puede interactuar con familiares, tutores, médicos y servidores autorizados. Las visitas a áreas de servicio o al harén dependen de permiso.",
-      "gender": "Masculino",
-      "subgroup": "Şehzades"
-    },
-    {
-      "id": "atsuki",
-      "name": "Atsuki",
-      "age": "14",
-      "group": "dinastia",
-      "rank": "Sultana",
-      "caste": "Omega",
-      "aroma": "Albaricoque y flor de cerezo",
-      "image": "atsuki.jpg",
-      "summary": "Vivir protegido bajo el amparo de su familia, preservando la tranquilidad de su posición y disfrutando de sus afectos sin aspirar a un poder que nunca ha deseado.",
-      "bio": "Nació dos años después a su hermano, siendo instruido y criado como cualquier otro de los hijos. No cuenta con muchas ambiciones ya que es consciente de su casta, así que se deja guiar por las recomendaciones de sus familiares y cualquier tipo de pedido que se le encargue cumplir. Es muy pegado a su madre, Tarae, siendo bastante consentido y a veces algo burlón por lo bajo, escondiéndose tras de sus faldas. Aún así, no es condescendiente con los de menor posición ni tampoco grosero. Disfruta de practicar música y seguir a su madre a todos lados. También se le puede ver en más de una ocasión robando algún dulce o snack de las cocinas del Palacio.",
-      "relations": [
-        "Padre: OsamuSultan",
-        "Madre: TaraeHasekiSultan",
-        "Hermanos: ArataSehzade"
-      ],
-      "note": "Las interacciones formales con dignatarios se dan bajo supervisión familiar.",
-      "gender": "Masculino",
-      "subgroup": "Sultanas"
-    },
-    {
-      "id": "osman",
-      "name": "Osman",
-      "age": "15",
-      "group": "dinastia",
-      "rank": "Şehzade",
-      "caste": "Alfa",
-      "aroma": "Rosa negra, vainilla y té negro",
-      "image": "osman.jpg",
-      "summary": "Forjarse como un gobernante digno de su linaje, erradicando las injusticias del imperio y convirtiendo su fuerza en un medio para proteger a su pueblo, aun si debe anteponer su deber a sus propios afectos.",
-      "bio": "De orígenes nobles, Osman es el hijo del Sultán Osamu y de la concubina Kenma, nacido en primavera, estación donde todo parece posible. Aquello marcó en el joven una personalidad fuerte, inquebrantable, pero a su vez tranquila y sensata, con un toque competitivo. A los conflictos buscaba soluciones sin que sus emociones interfieran en estas, y los problemas, del día a día, los enfrentaba con determinación. Al ser uno de los hijos del Sultán, de comodidades había en demasía, pero estas molestaban al joven Osman, el cual aspiraba a mejorar sus dotes en el combate para poder ser útil a su país en un futuro. Con un gran afecto por su posición, pueblo y tierras, desea un día erradicar la guerra, el hambre y la pobreza del imperio. Quizás aquellas aspiraciones eran demasiado para un joven de tan solo 15 años, pero él, con en el corazón a su padre, el Sultán, quería crecer lo más rápido posible para poder llegar lo más lejos que se pueda. Su relación con su familia es buena, aunque no lo demuestra abiertamente, quiere a sus hermanos y los protege, esto último de forma persistente, y casi como si fuera un reto personal, pero sabe que si un día debe decirles \"adiós\", lo hará sin lágrimas de por medio, porque él, antes que un hermano, es el hijo del Sultán.",
-      "relations": [
-        "Padre: OsamuSultan",
-        "Madre: KenmaBaskadin",
-        "Hermanos: OsomeSehzade, ZayanSultana, OsuyuSultana"
-      ],
-      "note": "Puede interactuar con familiares, tutores y personal asignado; sus actividades militares deben ser acordes con su edad.",
-      "gender": "Masculino",
-      "subgroup": "Şehzades"
-    },
-    {
-      "id": "osome",
-      "name": "Osome",
-      "age": "14",
-      "group": "dinastia",
-      "rank": "Şehzade",
-      "caste": "Alfa",
-      "aroma": "Madera blanca, café y nuez moscada",
-      "image": "osome.jpg",
-      "summary": "Proteger a su familia y asegurar su permanencia en la dinastía, aguardando con paciencia la oportunidad de ejercer su influencia sin revelar antes de tiempo sus verdaderas ambiciones.",
-      "bio": "Osome nació un día de invierno, después de un parto sin complicaciones de más. Él era igual que su madre y hermana, tranquilos, callados y sin muchas quejas, hijo del Sultán y uno de los posibles herederos del trono. Su madre no alimentaba ambición notoria en él, como todo era un silencioso deseo de hambre listo para atacar en las mejores oportunidades, Kenma les enseño a guardar silencio y ser estratégicos, todas las tardes en las que se sentaban a jugar Satranç también era una forma de enseñarles la paciencia. Él amaba a su familia, un día simplemente le pico la necesidad de siempre jurar que los protegería, aún sabiendo lo capaces que eran... Al menos su madre y su hermana, fuera de eso tenía un porte refinado y unos modales impecables, los susurros sobre lo imponente que era no se hacían de esperar, tras ser su casta revelada había pegado un gran estirón, llegando a estar casi de la altura de su progenitor omega. Pero su personalidad fría y distante a veces se quebraba por su familia, dejando demostrar un chico alegre y charlatán, solo cuando había confianza se lo veía siendo así con otros.",
-      "relations": [
-        "Padre: OsamuSultan",
-        "Madre: KenmaBaskadin",
-        "Hermanos: OsmanSehzade, ZayanSultana, OsuyuSultana"
-      ],
-      "note": "",
-      "gender": "Masculino",
-      "subgroup": "Şehzades"
-    },
-    {
-      "id": "zayan",
-      "name": "Zayan",
-      "age": "13",
-      "group": "dinastia",
-      "rank": "Sultana",
-      "caste": "Omega",
-      "aroma": "Jazmín, durazno y miel",
-      "image": "zayan.jpg",
-      "summary": "Conservar el cariño de quienes lo rodean y proteger la armonía de su familia, demostrando que incluso en una corte gobernada por la ambición, la bondad puede convertirse en una forma de influencia.",
-      "bio": "Nació en el seno de la dinastía y, desde pequeño, se convirtió en uno de los rostros más queridos del palacio. A sus trece años, posee una belleza delicada, una sonrisa encantadora y un carisma natural que le permite ganarse el cariño de prácticamente cualquiera. Es simpático, risueño y extraordinariamente sociable; siempre tiene una palabra amable, un cumplido sincero o alguna ocurrencia capaz de arrancarle una carcajada hasta al cortesano más serio. Su encanto no nace de la obligación ni de una estrategia para agradar, sino de una bondad genuina que lo lleva a tratar con la misma dulzura tanto a los miembros de la familia imperial como a los sirvientes del palacio. Recuerda los nombres, los gustos y hasta los pequeños problemas de quienes conoce, procurando hacer sentir especial a todo aquel que se cruce en su camino. Es travieso, curioso y un poquito mimado, aunque resulta prácticamente imposible enfadarse con él durante demasiado tiempo; incluso cuando se mete en problemas, suele terminar consiguiendo el perdón con una sonrisa y alguna disculpa adorable. A pesar de su posición como príncipe y de las expectativas asociadas a su condición de omega, Zayan jamás se considera superior a nadie. Adora pasar tiempo con su madre y su tía, a quienes colma de cariño, y siente una lealtad inquebrantable hacia ambas. Con su padre mantiene una relación afectuosa y respetuosa, mientras que con sus hermanos paternos procura llevarse bien, convencido de que siempre existe una oportunidad para acercarse a los demás. Su mayor virtud es también su mayor particularidad: encuentra algo bueno en casi todas las personas y se niega a juzgarlas sin conocerlas. En una corte llena de ambiciones, rivalidades y sonrisas falsas, Zayan es una pequeña luz que parece iluminarlo todo a su alrededor. Querido por los sirvientes, consentido por las mujeres del harén y apreciado incluso por quienes deberían considerarlo un rival, posee ese don extraordinario de resultar entrañable sin siquiera intentarlo. Porque si hay algo que caracteriza al menor de los, es que puede entrar en una habitación llena de desconocidos y salir de ella habiendo conseguido que todos lo adoren.",
-      "relations": [
-        "Padre: OsamuSultan",
-        "Madre: KenmaBaskadin",
-        "Hermanos: OsmanSehzade, OsomeSehzade, OsuyuSultana"
-      ],
-      "note": "Puede interactuar con familiares, tutores y personal de palacio de forma supervisada.",
-      "gender": "Masculino",
-      "subgroup": "Sultanas"
-    },
-    {
-      "id": "osuyu",
-      "name": "Osuyu",
-      "age": "12",
-      "group": "dinastia",
-      "rank": "Sultana",
-      "caste": "Alfa",
-      "aroma": "Avellana tostada y cacao",
-      "image": "osuyu.jpg",
-      "summary": "Dominar los conocimientos de la naturaleza y los venenos mientras permanece al lado de su madre, demostrando que no necesita la atención de la corte para cultivar una inteligencia capaz de convertirse en un arma silenciosa.",
-      "bio": "",
-      "relations": [
-        "Padre: OsamuSultan",
-        "Madre: KenmaBaskadin",
-        "Hermanos: OsmanSehzade, OsomeSehzade, ZayanSultana"
-      ],
-      "note": "Familia, tutores y personal autorizado; los estudios de hierbas deben hacerse con supervisión.",
-      "gender": "Femenino",
-      "subgroup": "Sultanas"
-    },
-    {
-      "id": "hiro",
-      "name": "Hiro",
-      "age": "14",
-      "group": "dinastia",
-      "rank": "Sultanzade",
-      "caste": "Beta",
-      "aroma": "Mora azul, muy tenue",
-      "image": "hiro.jpg",
-      "summary": "",
-      "bio": "",
-      "relations": [
-        "Madre: OtohaSultana",
-        "Hermanos: KenjiHanimsultan"
-      ],
-      "note": "Puede interactuar con la familia imperial y la casa de sus padres; las funciones públicas se determinan por protocolo.",
-      "gender": "Masculino",
-      "subgroup": "Descendientes de linea materna"
-    },
-    {
-      "id": "kenji",
-      "name": "Kenji",
-      "age": "8",
-      "group": "dinastia",
-      "rank": "Hanımsultan",
-      "caste": "Omega",
-      "aroma": "Leche de almendras, agua de rosas, azahar y miel",
-      "image": "kenji.jpg",
-      "summary": "",
-      "bio": "Hija menor del sultán, no es la más apegada al sultán, más si a su mamá: Kenma, no es una persona social o que prefiera estar entre las personas ¿Por qué? Sienten un repentino asco al estar rodeada, solo prefiere estar con su familia y aún asi, siempre esta pegada a su madre, no tiene un gran sentido de las emociones, apenas y distingue entre bien y mal. Sus cosas favoritos son: pasar tiempo con su madre, su madre, jugar con su madre, comer dulces con su madre, ver insectos con su madre, ver animales con su madre y ¿Ya mencione estar con su madre?\nPrefiere comer a escondidas de todos, a diferencia de sus hermanos, ella es la menos codicia en la atención, simplemente no le gusta, se la pasa leyendo libros sobre animales, insectos y hierbas, siendo menor tiene un amplio conocimiento sobre la naturaleza, más que nada en venenos. Esto se lo plática todo a su madre, le dice _todo_, come muchos dulces, demasiados para una niña, más esto no le afecta en nada en la energía, se mantiene calmada en cada asunto, y muy pocas(muchas) veces experimenta con la familia, poniendo hierbas en las bebidas o comidas de estos. \nAma jugar Satranç con su madre, ella sabe que algún momento le va a ganar.",
-      "relations": [
-        "Madre: OtohaSultana",
-        "Hermanos: HiroSultanzade"
-      ],
-      "note": "",
-      "gender": "Masculino",
-      "subgroup": "Descendientes de linea materna"
-    }
-  ]
-};
+export default [
+  {
+    "id": "osamu",
+    "name": "Osamu",
+    "age": "30 ",
+    "group": "dinastia",
+    "rank": "Sultán",
+    "caste": "Alfa",
+    "aroma": "Incienso y té verde",
+    "image": "osamu.jpg",
+    "summary": "Busca Consolidar su poder y asegurar la continuidad de su dinastía, protegiendo a sus hermanos y preservando la estabilidad del imperio por encima de cualquier sacrificio.",
+    "bio": `Criado desde pequeño para liderar, Osamu fue consciente de que él y su hermano eran el sostén de su madre cuando el antiguo sultán muriera. Por ello se dedicó a sus estudios, aprendió el arte de la guerra y cumplió sus responsabilidades como Şehzade. Sus campañas militares y la buena administración de su provincia le permitieron ser nombrado heredero.
+      Su ascenso al trono consolidó su poder y puso fin a la influencia de las mujeres de su padre que amenazaban la posición de su madre. La única excepción a la ley del fratricidio fue Atsumu, su gemelo y complemento. Ambos habían compartido toda su existencia y deseaban permanecer juntos hasta el final, ya fuera en el campo de batalla o alcanzados por la vejez. Atsumu renunció a formar una familia propia para permanecer junto a su hermano y preservar la estabilidad del Imperio.
+      Durante los primeros años de su gobierno, sus hermanos, Atsumu y la pequeña Otoha, lo ayudaron a establecer bases sólidas para el reinado. Tras la muerte de su madre, Osamu confió a Otoha las responsabilidades de la Valide. Era una de las personas en quien más confiaba y deseaba reconocer su posición dentro de la corte.
+      Como padre, ha recibido críticas por tener hijos con distintas consortes. Sin embargo, considera que asegurar la continuidad de la dinastía es parte de su deber, aunque todavía no ha designado un heredero oficial.`,
+    "relations": [
+      "Hermano: Şehzade Atsumu y Otoha Sultán.",
+      "Hijos: Şehzade Arata , Şehzade Osman, Şehzade Osome, Atsuki Sultán, Zayan Sultán y Osuyu Sultán.",
+    ],
+    "note": "El acceso privado a él depende de sus órdenes, del protocolo y de la trama.",
+    "gender": "Masculino",
+    "subgroup": "Estirpe del Trono"
+  },
+  {
+    "id": "atsumu",
+    "name": "Atsumu",
+    "age": "30",
+    "group": "dinastia",
+    "rank": "Şehzade",
+    "caste": "Alfa",
+    "aroma": "Corteza y miel",
+    "image": "atsumu.jpg",
+    "summary": "Su ambición no reside en el trono, sino en permanecer al lado de su hermano, protegiendo su corona y preservando el vínculo que siempre ha sido el centro de su mundo.",
+    "bio": "Nacido en la alta cuna, criado y forjado para un puesto que jamás fue suyo. Él admira a su otra mitad, alma de su corazón que guía el camino ejerciendo el poder y la gloria sobre todos. Observar y acompañar a su hermano siempre fue su lugar y adoración, aunque esta última se comparte hacia su luna.",
+    "relations": [
+      "Hermanos: Sultán Osamu y Otoha Sultán.",
+      "Sobrinos: Şehzade Arata , Şehzade Osman, Şehzade Osome, Atsuki Sultán, Zayan Sultán y Osuyu Sultán.",
+    ],
+    "note": "Puede tratar con la familia imperial, dignatarios y personal autorizado.",
+    "gender": "Masculino",
+    "subgroup": "Estirpe del Trono"
+  },
+  {
+    "id": "otoha",
+    "name": "Otoha",
+    "age": "28",
+    "group": "dinastia",
+    "rank": "Sultana",
+    "caste": "Alfa",
+    "aroma": "Lavanda, ciruela y pimienta rosa; fondo de cacao y vainilla",
+    "image": "otoha.jpg",
+    "summary": "Procura proteger a su familia y conservar el equilibrio de la corte mediante la prudencia, sin exhibir abiertamente su influencia.",
+    "bio": `Otoha nació y creció entre los privilegios y las sutilezas de la corte, donde aprendió a desenvolverse con la gracia propia de una princesa y la perspicacia que exige su posición. Su sonrisa cálida y su conversación amena le han permitido ganarse el aprecio de quienes la rodean; sabe convertir los comentarios más triviales en oportunidades para acercar voluntades sin exhibir abiertamente su influencia.
+      Mientras cultiva la estima de la gente fuera del palacio, conserva dentro de sus muros una presencia respetada. Tras la muerte de su madre, su hermano Osamu le confió las responsabilidades de la Valide. Viuda y madre de Hiro y Kenji, procura proteger a su familia y mantener el equilibrio de la corte mediante la prudencia, consciente de que incluso los gestos más amables pueden tener consecuencias políticas.`,
+    "relations": [
+      "Hermanos: Sultán Osamu y Otoha Sultán..",
+      "Hijos: Sultanzade Hiro y Hanimsultan Kenji",
+      "Sobrinos: Şehzade Arata , Şehzade Osman, Şehzade Osome, Atsuki Sultán, Zayan Sultán y Osuyu Sultán.",
+      "Cariye: Shizuka Kita",
+    ],
+    "note": "Puede interactuar con la familia imperial, las responsables del harén, sus servidores, dignatarios recibidos en audiencia y las casas nobles con las que mantenga vínculos. Su autoridad como Valide es funcional y delegada: no la convierte en madre biológica del sultán.",
+    "gender": "Femenino",
+    "subgroup": "Estirpe del Trono"
+  },
+  {
+    "id": "tarae",
+    "name": "Tarae",
+    "age": "28",
+    "group": "dinastia",
+    "rank": "Haseki Sultan",
+    "caste": "Omega",
+    "aroma": "Flor de osmanthus y té",
+    "image": "tarae.jpg",
+    "summary": "Asegurar el lugar de sus hijos en la dinastía otomana y preservar su legado, cultivando la confianza del sultán sin renunciar a la identidad que la distingue.",
+    "bio": `Proveniente de la dinastía Yamaguchi, tanto Tarae como su hermano fueron enviados bajo el pretexto de ser un regalo a la región otomana. Específicamente, Tarae fue la encargada de representar a sus parientes como una invitación simbólica para abrir relaciones con los sultanes. A una edad muy temprana llegó a las puertas del Imperio, adaptándose a las costumbres y la cultura de su esposo, pero sin dejar de lado su herencia ni su origen.
+      Es por eso que ha sido una presencia curiosa dentro del harén. El sonido singular del guqin es la primera prueba de su afiliación inicial y, a la vez, una muestra de la compasión del sultán al permitirle conservar un recuerdo de su hogar. Sus pasos delicados y silenciosos al tratar con los demás hacen que sus momentos de privacidad y la energía que reserva únicamente para sus seres amados sean aún más especiales. Es letrada, y se cree que esto le ha ayudado a comprender mejor a su esposo y las responsabilidades que conlleva su posición.
+      Sin embargo, no hay nada que le llene más de orgullo que sus hijos. No solo por su belleza, que considera una combinación perfecta entre su propia elegancia y la naturaleza dominante de su esposo, sino también por su inteligencia y su manera de percibir la vida`,
+    "relations": [
+      "Sultán Osamu.",
+      "Hijos: Şehzade Arata y Atsuki Sultan.",
+      "Hermano: Tadashi Yamaguchi",
+      "Cariye: Natsu.",
+    ],
+    "Note": "Recibe a miembros de la familia imperial y personal asignado; las audiencias con dignatarios dependen de la invitación y el protocolo.",
+    "gender": "Femenino",
+    "subgroup": "Consortes"
+  },
+  {
+    "id": "kenma",
+    "name": "Kenma",
+    "age": "29",
+    "group": "dinastia",
+    "rank": "Baş Kadın",
+    "caste": "Omega",
+    "aroma": "Manzana, miel y rosas; matiz amargo",
+    "image": "kenma.jpg",
+    "summary": "",
+    "bio": ``,
+    "relations": [
+      "Osamu Sultán",
+      "Hijos: Şehzade Osman, Şehzade Osome, Zayan Sultan y Osuyu Sultan.",
+      "Cariye: ???"
+    ],
+    "Note": "Puede interactuar con sus hijos, otras consortes, la familia imperial y su personal autorizado. Su residencia no implica acceso irrestricto a todos los espacios del palacio.",
+    "gender": "Masculino",
+    "subgroup": "Consortes"
+  },
+  {
+    "id": "arata",
+    "name": "Arata",
+    "age": "16",
+    "group": "dinastia",
+    "rank": "Şehzade",
+    "caste": "Alfa",
+    "aroma": "Hierbabuena y romero",
+    "image": "arata.jpg",
+    "summary": "Proteger a su madre y a su tía mientras conquista la autonomía necesaria para dedicarse a la medicina, sin traicionar a su padre ni permitir que su propia naturaleza lo convierta en una pieza más de las intrigas dinásticas.",
+    "bio": `Nació en el seno de la dinastía Miya y su condición de alfa reforzó las expectativas depositadas sobre él. Se esperaba que creciera para convertirse en un hombre imponente, severo y capaz de inspirar temor; sin embargo, Arata nunca encajó del todo en aquella imagen. Su personalidad, sus modales refinados han provocado que algunos miembros de la corte lo consideren demasiado femenino para un alfa de sangre imperial. Los rumores circulan entre los pasillos del palacio, disfrazados de comentarios inocentes y conversaciones a media voz. Desde joven, se ha sentido atraído por los conocimientos de los médicos, los herbolarios y los boticarios del Imperio. Le fascina el estudio de las plantas medicinales, la preparación de ungüentos y remedios. Ha procurado aprender cuanto puede, aprovechando las oportunidades que le ofrece el palacio para acercarse a quienes poseen esos conocimientos, consciente de que difícilmente podría realizarlo sin entrar en conflicto con las obligaciones de su linaje. Pese a todo, haría lo que fuera por su madre y su tía. La idea de traicionar a su padre nunca le ha cruzado por la mente. Odia a todos los hijos de su padre por igual.`,
+    "relations": [
+      "Padre: Osamu Sultán.",
+      "Madre: Tarae.", 
+    ],
+    "note": "Puede interactuar con familiares, tutores, médicos y servidores autorizados. Las visitas a áreas de servicio o al harén dependen de permiso.",
+    "gender": "Masculino",
+    "subgroup": "Şehzades"
+  },
+  {
+    "id": "atsuki",
+    "name": "Atsuki",
+    "age": "14",
+    "group": "dinastia",
+    "rank": "Sultana",
+    "caste": "Omega",
+    "aroma": "Albaricoque y flor de cerezo",
+    "image": "atsuki.jpg",
+    "summary": "Vivir protegido bajo el amparo de su familia, preservando la tranquilidad de su posición y disfrutando de sus afectos sin aspirar a un poder que nunca ha deseado.",
+    "bio": `Nació dos años después a su hermano, siendo instruido y criado como cualquier otro de los hijos. No cuenta con muchas ambiciones ya que es consciente de su casta, así que se deja guiar por las recomendaciones de sus familiares y cualquier tipo de pedido que se le encargue cumplir. Es muy pegado a su madre, Tarae, siendo bastante consentido y a veces algo burlón por lo bajo, escondiéndose tras de sus faldas. Aún así, no es condescendiente con los de menor posición ni tampoco grosero. Disfruta de practicar música y seguir a su madre a todos lados. También se le puede ver en más de una ocasión robando algún dulce o snack de las cocinas del Palacio.`,
+    "relations": [
+      "Padre: Osamu Sultán.",
+      "Madre: Tarae.", 
+    ],
+    "note": "Las interacciones formales con dignatarios se dan bajo supervisión familiar.",
+    "gender": "Masculino",
+    "subgroup": "Sultanas"
+  },
+  {
+    "id": "osman",
+    "name": "Osman",
+    "age": "15",
+    "group": "dinastia",
+    "rank": "Şehzade",
+    "caste": "Alfa",
+    "aroma": "Rosa negra, vainilla y té negro",
+    "image": "osman.jpg",
+    "summary": "Forjarse como un gobernante digno de su linaje, erradicando las injusticias del imperio y convirtiendo su fuerza en un medio para proteger a su pueblo, aun si debe anteponer su deber a sus propios afectos.",
+    "bio": `De orígenes nobles, Osman es el hijo del Sultán Osamu Miya y de la concubina Kenma Kozume, nacido en primavera, estación donde todo parece posible. Aquello marcó en el joven una personalidad fuerte, inquebrantable, pero a su vez tranquila y sensata, con un toque competitivo. A los conflictos buscaba soluciones sin que sus emociones interfieran en estas, y los problemas, del día a día, los enfrentaba con determinación. Al ser uno de los hijos del Sultán, de comodidades había en demasía, pero estas molestaban al joven Osman, el cual aspiraba a mejorar sus dotes en el combate para poder ser útil a su país en un futuro. Con un gran afecto por su posición, pueblo y tierras, desea un día erradicar la guerra, el hambre y la pobreza del imperio. Quizás aquellas aspiraciones eran demasiado para un joven de tan solo 15 años, pero él, con en el corazón a su padre, el Sultán, quería crecer lo más rápido posible para poder llegar lo más lejos que se pueda. Su relación con su familia es buena, aunque no lo demuestra abiertamente, quiere a sus hermanos y los protege, esto último de forma persistente, y casi como si fuera un reto personal, pero sabe que si un día debe decirles "adiós", lo hará sin lágrimas de por medio, porque él, antes que un hermano, es el hijo del Sultán.`,
+    "relations": [
+      "Padre: Osamu Sultán.",
+      "Madre: Kenma.", 
+    ],
+    "note": "Puede interactuar con familiares, tutores y personal asignado; sus actividades militares deben ser acordes con su edad.",
+    "gender": "Masculino",
+    "subgroup": "Şehzades"
+  },
+  {
+    "id": "osome",
+    "name": "Osome",
+    "age": "14",
+    "group": "dinastia",
+    "rank": "Şehzade",
+    "caste": "Alfa",
+    "aroma": "Madera blanca, café y nuez moscada",
+    "image": "osome.jpg",
+    "summary": "Proteger a su familia y asegurar su permanencia en la dinastía Miya, aguardando con paciencia la oportunidad de ejercer su influencia sin revelar antes de tiempo sus verdaderas ambiciones.",
+    "bio": `Osome nació un día de invierno, después de un parto sin complicaciones de más. Él era igual que su madre y hermana, tranquilos, callados y sin muchas quejas, hijo del Sultán y uno de los posibles herederos del trono. Su madre no alimentaba ambición notoria en él, como todo era un silencioso deseo de hambre listo para atacar en las mejores oportunidades, Kenma les enseño a guardar silencio y ser estratégicos, todas las tardes en las que se sentaban a jugar Satranç también era una forma de enseñarles la paciencia. Él amaba a su familia, un día simplemente le pico la necesidad de siempre jurar que los protegería, aún sabiendo lo capaces que eran... Al menos su madre y su hermana, fuera de eso tenía un porte refinado y unos modales impecables, los susurros sobre lo imponente que era no se hacían de esperar, tras ser su casta revelada había pegado un gran estirón, llegando a estar casi de la altura de su progenitor omega. Pero su personalidad fría y distante a veces se quebraba por su familia, dejando demostrar un chico alegre y charlatán, solo cuando había confianza se lo veía siendo así con otros.`,
+    "relations": [
+      "Padre: Osamu Sultán.",
+      "Madre: Kenma.", 
+    ],
+    "interaction": "Principalmente familia, tutores y personal autorizado.",
+    "gender": "Masculino",
+    "subgroup": "Şehzades"
+  },
+  {
+    "id": "zayan",
+    "name": "Zayan",
+    "age": "13",
+    "group": "dinastia",
+    "rank": "Sultana",
+    "caste": "Omega",
+    "aroma": "Jazmín, durazno y miel",
+    "image": "zayan.jpg",
+    "summary": "Conservar el cariño de quienes lo rodean y proteger la armonía de su familia, demostrando que incluso en una corte gobernada por la ambición, la bondad puede convertirse en una forma de influencia.",
+    "bio": `Nació en el seno de la dinastía Miya y, desde pequeño, se convirtió en uno de los rostros más queridos del palacio. A sus trece años, posee una belleza delicada, una sonrisa encantadora y un carisma natural que le permite ganarse el cariño de prácticamente cualquiera. Es simpático, risueño y extraordinariamente sociable; siempre tiene una palabra amable, un cumplido sincero o alguna ocurrencia capaz de arrancarle una carcajada hasta al cortesano más serio. Su encanto no nace de la obligación ni de una estrategia para agradar, sino de una bondad genuina que lo lleva a tratar con la misma dulzura tanto a los miembros de la familia imperial como a los sirvientes del palacio. Recuerda los nombres, los gustos y hasta los pequeños problemas de quienes conoce, procurando hacer sentir especial a todo aquel que se cruce en su camino. Es travieso, curioso y un poquito mimado, aunque resulta prácticamente imposible enfadarse con él durante demasiado tiempo; incluso cuando se mete en problemas, suele terminar consiguiendo el perdón con una sonrisa y alguna disculpa adorable. A pesar de su posición como príncipe y de las expectativas asociadas a su condición de omega, Zayan jamás se considera superior a nadie. Adora pasar tiempo con su madre y su tía, a quienes colma de cariño, y siente una lealtad inquebrantable hacia ambas. Con su padre mantiene una relación afectuosa y respetuosa, mientras que con sus hermanos paternos procura llevarse bien, convencido de que siempre existe una oportunidad para acercarse a los demás. Su mayor virtud es también su mayor particularidad: encuentra algo bueno en casi todas las personas y se niega a juzgarlas sin conocerlas. En una corte llena de ambiciones, rivalidades y sonrisas falsas, Zayan es una pequeña luz que parece iluminarlo todo a su alrededor. Querido por los sirvientes, consentido por las mujeres del harén y apreciado incluso por quienes deberían considerarlo un rival, posee ese don extraordinario de resultar entrañable sin siquiera intentarlo. Porque si hay algo que caracteriza al menor de los Miya, es que puede entrar en una habitación llena de desconocidos y salir de ella habiendo conseguido que todos lo adoren.`,
+    "relations": [
+      "Padre: Osamu Sultán.",
+      "Madre: Kenma.", 
+    ],
+    "note": "Puede interactuar con familiares, tutores y personal de palacio de forma supervisada.",
+    "gender": "Masculino",
+    "subgroup": "Sultanas"
+  },
+  {
+    "id": "osuyu",
+    "name": "Osuyu",
+    "age": "12",
+    "group": "dinastia",
+    "rank": "Sultana",
+    "caste": "Alfa",
+    "aroma": "Avellana tostada y cacao",
+    "image": "osuyu.jpg",
+    "summary": "Dominar los conocimientos de la naturaleza y los venenos mientras permanece al lado de su madre, demostrando que no necesita la atención de la corte para cultivar una inteligencia capaz de convertirse en un arma silenciosa.",
+    "bio": ``,
+    "relations": [
+      "Padre: Osamu Sultán.",
+      "Madre: Kenma.", 
+    ],
+    "note": "Familia, tutores y personal autorizado; los estudios de hierbas deben hacerse con supervisión.",
+    "gender": "Femenino",
+    "subgroup": "Sultanas"
+  },
+  {
+    "id": "hiro",
+    "name": "Hiro",
+    "age": "14",
+    "group": "dinastia",
+    "rank": "Sultanzade",
+    "caste": "Beta",
+    "aroma": "Mora azul, muy tenue",
+    "image": "hiro.jpg",
+    "summary": "",
+    "bio": ``,
+    "relations": [
+      "Madre: Otoha Sultán.",
+      "Hermano: Kenji Hanimsultan.", 
+    ],
+    "note": "Puede interactuar con la familia imperial y la casa de sus padres; las funciones públicas se determinan por protocolo.",
+    "gender": "Masculino",
+    "subgroup": "Descendientes de linea materna"
+  },
+  {
+    "id": "kenji",
+    "name": "Kenji",
+    "age": "8",
+    "group": "dinastia",
+    "rank": "Hanımsultan",
+    "caste": "Omega",
+    "aroma": "Leche de almendras, agua de rosas, azahar y miel",
+    "image": "kenji.jpg",
+    "summary": "",
+    "bio": `Hija menor del sultán, no es la más apegada al sultán, más si a su mamá: Kenma, no es una persona social o que prefiera estar entre las personas ¿Por qué? Sienten un repentino asco al estar rodeada, solo prefiere estar con su familia y aún asi, siempre esta pegada a su madre, no tiene un gran sentido de las emociones, apenas y distingue entre bien y mal. Sus cosas favoritos son: pasar tiempo con su madre, su madre, jugar con su madre, comer dulces con su madre, ver insectos con su madre, ver animales con su madre y ¿Ya mencione estar con su madre?
+Prefiere comer a escondidas de todos, a diferencia de sus hermanos, ella es la menos codicia en la atención, simplemente no le gusta, se la pasa leyendo libros sobre animales, insectos y hierbas, siendo menor tiene un amplio conocimiento sobre la naturaleza, más que nada en venenos. Esto se lo plática todo a su madre, le dice _todo_, come muchos dulces, demasiados para una niña, más esto no le afecta en nada en la energía, se mantiene calmada en cada asunto, y muy pocas(muchas) veces experimenta con la familia, poniendo hierbas en las bebidas o comidas de estos. 
+Ama jugar Satranç con su madre, ella sabe que algún momento le va a ganar.`,
+    "relations": [
+      "Madre: Otoha Sultán.",
+      "Hermano: Hiro sultanzade.", 
+    ],
+    "interaction": "Familia, cuidadores y tutores autorizados.",
+    "gender": "Masculino",
+    "subgroup": "Descendientes de linea materna"
+  }
+];
