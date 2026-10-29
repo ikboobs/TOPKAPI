@@ -64,4 +64,12 @@ function renderNobility(){
 function renderSearch(){const q=$("#searchCharacters").value.trim().toLocaleLowerCase("es");const target=$("#searchResults");if(!q){target.innerHTML="";target.classList.remove("active");return;}const matches=people.filter(p=>[p.name,p.rank,p.caste,p.aroma,p.summary,p.bio,p.gender].join(" ").toLocaleLowerCase("es").includes(q)).slice(0,10);target.innerHTML=matches.length?matches.map(p=>`<button class="search-result" data-person-link="${esc(p.id)}"><span><strong>${esc(p.name)}</strong><small>${esc(p.rank)} · ${esc(p.age||"—")} años</small></span><span>↗</span></button>`).join(""):`<p class="empty-state">No se encontraron personajes.</p>`;target.classList.add("active");}
 function observeReveal(){if(!("IntersectionObserver"in window)){document.querySelectorAll(".reveal").forEach(e=>e.classList.add("visible"));return;}const ob=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add("visible");ob.unobserve(e.target);}}),{threshold:.06});document.querySelectorAll(".reveal:not(.visible)").forEach(e=>ob.observe(e));}
 $("#searchCharacters").addEventListener("input",renderSearch);$("#clearSearch").addEventListener("click",()=>{$("#searchCharacters").value="";renderSearch();$("#searchCharacters").focus();});document.addEventListener("click",e=>{const card=e.target.closest("[data-person]");if(card){openProfile(card.dataset.person);return;}const link=e.target.closest("[data-person-link]");if(link){openProfile(link.dataset.personLink);return;}const named=e.target.closest("[data-name-link]");if(named){const p=findPerson(named.dataset.nameLink);if(p)openProfile(p.id);}});document.addEventListener("keydown",e=>{const card=e.target.closest("[data-person]");if(card&&(e.key==="Enter"||e.key===" ")){e.preventDefault();openProfile(card.dataset.person);}if(e.key==="Escape"&&$("#profileDialog").open)$("#profileDialog").close();});$("#dialogClose").addEventListener("click",()=>$("#profileDialog").close());$("#profileDialog").addEventListener("click",e=>{if(e.target===$("#profileDialog"))$("#profileDialog").close();});$("#menuToggle").addEventListener("click",()=>{const n=$("#navLinks"),opened=n.classList.toggle("open");$("#menuToggle").setAttribute("aria-expanded",String(opened));});document.querySelectorAll("#navLinks a").forEach(a=>a.addEventListener("click",()=>{$("#navLinks").classList.remove("open");$("#menuToggle").setAttribute("aria-expanded","false");}));
-renderDynasty();renderGovernment();renderOffices();renderHarem();renderNobility();observeReveal();
+renderDynasty();
+renderGovernment();
+renderOffices();
+renderHarem();
+renderNobility();
+
+document.querySelectorAll(".reveal").forEach(el => {
+  el.classList.add("visible");
+});
