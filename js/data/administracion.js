@@ -31,6 +31,22 @@ export default {
       "relations": [ "" ],
       "gender": "Masculino"
     }
+        {
+      "id": "akiteru",
+      "name": "Akiteru",
+      "age": "33",
+      "group": "administracion",
+      "rank": "Kizlar Aghasi",
+      "caste": "Alfa",
+      "aroma": "Flor de Jamaica con Canela",
+      "image": "akiteru.jpg",
+      "summary": "",
+      "bio": "",
+      "relations": [
+        "Hermana: Tarae Haseki Sultan"
+      ],
+      "gender": "Masculino"
+    },
   ],
   "positions": [
     {
