@@ -1,20 +1,6 @@
 export default {
   "characters": [
     {
-      "id": "yaku",
-      "name": "Morisuke",
-      "age": "21",
-      "group": "harem",
-      "rank": "Kethüda Kadın",
-      "caste": "Omega",
-      "aroma": "Incienso negri, hojas de tabaco crudo y almizcle blanco.",
-      "image": "yaku.jpg",
-      "summary": "Kethüda Kadın y administrador principal del harén; coordina al personal y las necesidades de las residentes de mayor rango.",
-      "bio": "",
-            "relations": [ "" ],
-      "gender": "Masculino"
-    },
-    {
       "id": "kei",
       "name": "Kei",
       "age": "",
@@ -72,20 +58,6 @@ export default {
         "Hermana: Natsu",
       ],
       "gender": "Masculino"
-    },
-    {
-      "id": "alissa",
-      "name": "Alissa",
-      "age": "22",
-      "group": "harem",
-      "rank": "İkbal",
-      "caste": "Omega",
-      "aroma": "Jazmin blanco, flor de naranjo y dulce de vainilla.",
-      "image": "alissa.jpg",
-      "summary": "İkbal del sultán; ocupa una posición favorecida dentro del harén imperial.",
-      "bio": "",
-      "relations": [ "" ],
-      "gender": "Femenino"
     },
     {
       "id": "akiko",
