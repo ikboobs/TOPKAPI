@@ -1,19 +1,19 @@
 export default {
   "characters": [
     {
-      "id": "bokuto",
+      "id": "kotaro",
       "name": "Kotaro",
       "age": "43",
       "group": "nobleza",
       "rank": "Pashá",
       "caste": "Alfa",
       "aroma": "Cedro y canela",
-      "image": "bokuto.jpg",
-      "summary": "Dignatario de trayectoria militar, reconocido por su estrategia y disciplina.",
+      "image": "kotaro.jpg",
+      "summary": "Representante de la casa noble Bokuto; hombre de trayectoria militar, reconocido por su estrategia y disciplina.",
       "bio": ``,
       "relations": [
         "Consorte: Keiji Paşahanım .",
-        "Hijos: Yun Pashazade.",
+        "Hijos: Ren Hatun y Yun Hatun.",
       ],
       "gender": "Masculino"
     },
@@ -26,28 +26,63 @@ export default {
       "caste": "Omega",
       "aroma": "Té blanco y vainilla",
       "image": "akaashi.jpg",
-      "summary": "Consorte y consejero de confianza de una casa noble.",
+      "summary": "Consorte de Kotaro, de la casa noble Bokuto.",
       "bio": ``,
       "relations": [
         "Consorte: Kotaro.",
-        "Hijos: Yun Pashazade.",
+        "Hijos: Ren Hatun y Yun Hatun.",
       ],
       "gender": "Masculino"
     },
+        {
+      "id": "ren",
+      "name": "Ren",
+      "age": "10",
+      "group": "nobleza",
+      "rank": "Hatun",
+      "caste": "Omega",
+      "aroma": "Hidromiel, frutos silvestres y bosque",
+      "image": "ren.jpg",
+      "summary": "Estirpe de la casa noble Bokuto.",
+      "bio": ``,
+      "relations": [
+        "Padre: Kotaro Pasha",
+        "Madre: Keiji Pashahanim"
+      ],
+      "gender": "Masculino"
+    },
+        {
+      "id": "yun",
+      "name": "Yūn",
+      "age": "10",
+      "group": "nobleza",
+      "rank": "Hatun",
+      "caste": "Omega",
+      "aroma": "Tierra humeda, bosque y especias",
+      "image": "yun.jpg",
+      "summary": "Estirpe de la casa noble Bokuto.",
+      "bio": ``,
+      "relations": [
+        "Padre: Kotaro Pasha",
+        "Madre: Keiji Pashahanim"
+      ],
+      "gender": "Masculino"
+    },
+    
     {
-      "id": "kuroo",
+      "id": "tetsuro",
       "name": "Tetsuro",
       "age": "38",
       "group": "nobleza",
       "rank": "Pashá",
       "caste": "Alfa",
       "aroma": "Tabaco dulce",
-      "image": "kuroo.jpg",
-      "summary": "Dignatario vinculado a la defensa de los puertos y a la seguridad del comercio.",
+      "image": "tetsuro.jpg",
+      "summary": "Representante de la casa noble Kuroo; vinculado a la defensa de los puertos y a la seguridad del comercio.",
       "bio": ``,
       "relations": [
         "Consorte: Suguru Paşahanım.",
-        "Hijos: Noé Pashazade.",
+        "Hijos: Noé Hatun.",
       ],
       "gender": "Masculino"
     },
@@ -60,16 +95,83 @@ export default {
       "caste": "Omega",
       "aroma": "Limón, menta y miel.",
       "image": "daisho.jpg",
-      "summary": "Consorte de una casa noble; perspicaz en alianzas y asuntos de corte.",
+      "summary": "Consorte de Tetsuro, de la casa noble Kuroo.",
       "bio": ``,
       "relations": [
         "Consorte: Suguru Paşahanım.",
-        "Hijos: Noé Pashazade.",
+        "Hijos: Noé Hatun.",
+      ],
+      "gender": "Masculino"
+    },
+        {
+      "id": "noe",
+      "name": "Noe",
+      "age": "15",
+      "group": "nobleza",
+      "rank": "Hatun",
+      "caste": "Omega",
+      "aroma": "Mora azul y eucalipto",
+      "image": "noe.jpg",
+      "summary": "Estirpe de la casa noble Kuroo.",
+      "bio": ``,
+      "relations": [
+        "Padre: Tetsuro Pasha",
+        "Madre: Suguro Pashahanim"
+      ],
+      "gender": "Masculino"
+    },
+
+    {
+      "id": "tooru",
+      "name": "Tōoru",
+      "age": "35",
+      "group": "nobleza",
+      "rank": "Noble",
+      "caste": "Omega",
+      "aroma": "Café y nuez moscada",
+      "image": "tooru.jpg",
+      "summary": "Antiguo consorte de Wakatoshi Bey, de la Nobleza Caida Ushijima; actual invitado en el palacio Topkapi.",
+      "bio": ``,
+      "relations": [
+        "Hijos: Rúzgar Hanim y Rashida Hanim.",
+      ],
+      "gender": "Masculino"
+    },
+        {
+      "id": "ruzgar",
+      "name": "Rüzgar",
+      "age": "16",
+      "group": "nobleza",
+      "rank": "Hatun",
+      "caste": "Omega",
+      "aroma": "Pera madura con leche de almendras.",
+      "image": "ruzgar.jpg",
+      "summary": "Estirpe la otrora casa noble Ushijima, prometido en matrimonio a Hiro Pashazade.",
+      "bio": ``,
+      "relations": [
+        "Madre: Tooru Hanim"
       ],
       "gender": "Masculino"
     },
     {
-      "id": "tendo",
+      "id": "rashida",
+      "name": "Rashida",
+      "age": "14",
+      "group": "nobleza",
+      "rank": "Hatun",
+      "caste": "Alfa",
+      "aroma": "Mirra y lavanda",
+      "image": "rashida.jpg",
+      "summary": "Estirpe la otrora casa noble Ushijima, enviado al palacio como miembro del haren en busqueda de mejores oportunidades.",
+      "bio": ``,
+      "relations": [
+        "Madre: Tooru Hanim"
+      ],
+      "gender": "Femenino"
+    },
+    
+    {
+      "id": "satori",
       "name": "Satori",
       "age": "34",
       "group": "nobleza",
@@ -77,51 +179,54 @@ export default {
       "caste": "Alfa",
       "aroma": "Sándalo, frutos rojos y chocolate",
       "image": "tendo.jpg",
-      "summary": "Dignatario de influencia militar y diplomática.",
+      "summary": "Representante de la casa noble Tendo; Dignatario de influencia militar y diplomática.",
       "bio": ``,
-      "relations": [],
+      "relations": [
+        "Hijos: Takeshiro Pasházade."
+      ],
       "gender": "Masculino"
     },
     {
-      "id": "sakusa",
+      "id": "takeshiro",
+      "name": "Takeshiro",
+      "age": "16",
+      "group": "nobleza",
+      "rank": "Pasházade",
+      "caste": "Alfa",
+      "aroma": "Chocolate amargo y menta.",
+      "image": "takeshiro.jpg",
+      "summary": "Primogenito de la casa noble Tendo.",
+      "bio": ``,
+      "relations": [
+        "Padre: Satori Pashá."
+      ],
+      "gender": "Masculino"
+    },
+    
+    {
+      "id": "kiyoomi",
       "name": "Kiyoomi",
       "age": "34",
       "group": "nobleza",
       "rank": "Pashá",
       "caste": "Alfa",
       "aroma": "Benjuí, incienso y tonka",
-      "image": "sakusa.jpg",
-      "summary": "Administrador militar y estratega, meticuloso en los asuntos de Estado.",
+      "image": "kiyoomi.jpg",
+      "summary": "Representante de la casa noble Sakusa; conocido administrador militar y estratega, meticuloso en los asuntos de Estado.",
       "bio": ``,
       "relations": [],
       "gender": "Masculino"
     },
     {
-      "id": "oikawa",
-      "name": "Tōru",
-      "age": "35",
-      "group": "nobleza",
-      "rank": "Noble",
-      "caste": "Omega",
-      "aroma": "Café y nuez moscada",
-      "image": "oikawa.jpg",
-      "summary": "Antiguo de una casa noble; hábil en las relaciones sociales y políticas.",
-      "bio": ``,
-      "relations": [
-        "Hijos: Rúzgar Hanim y Rashida Hanim.",
-      ],
-      "gender": "Masculino"
-    },
-    {
-      "id": "iwaizumi",
+      "id": "hajime",
       "name": "Hajime",
       "age": "25",
       "group": "nobleza",
       "rank": "Bey",
       "caste": "Alfa",
       "aroma": "Cedro, cuero y especias calidas.",
-      "image": "iwaizumi.jpg",
-      "summary": "Señor de una casa territorial con tradición militar.",
+      "image": "hajime.jpg",
+      "summary": "Representante de la casa noble Iwaizumi.",
       "bio": ``,
       "relations": [],
       "gender": "Masculino"
@@ -135,76 +240,10 @@ export default {
       "caste": "Alfa",
       "aroma": "Manzana verde y cedro",
       "image": "lev.jpg",
-      "summary": "Noble de origen extranjero que ganó posición mediante servicio e influencia.",
+      "summary": "Representante de la casa noble Haiba; de origen extranjero, que ganó posición mediante servicio e influencia.",
       "bio": ``,
       "relations": ["Hermana: Alissa" ],
       "gender": "Masculino"
-    },
-    {
-      "id": "bokuto-son",
-      "name": "Yūn",
-      "age": "10",
-      "group": "nobleza",
-      "rank": "Pasházade",
-      "caste": "Omega",
-      "aroma": "",
-      "image": "bokuto-son.jpg",
-      "summary": "Estirpe de una casa noble.",
-      "bio": ``,
-      "relations": [
-        "Padre: Kotaro Pasha",
-        "Madre: Keiji Pashahanim"
-      ],
-      "gender": "Masculino"
-    },
-    {
-      "id": "kuroo-son",
-      "name": "Noe",
-      "age": "15",
-      "group": "nobleza",
-      "rank": "Pasházade",
-      "caste": "Omega",
-      "aroma": "No consignado",
-      "image": "kuroo-son.jpg",
-      "summary": "Estirpe de una casa noble.",
-      "bio": ``,
-      "relations": [
-        "Padre: Tetsuro Pasha",
-        "Madre: Suguro Pashahanim"
-      ],
-      "gender": "Masculino"
-    },
-    {
-      "id": "ruzgar",
-      "name": "Rüzgar",
-      "age": "16",
-      "group": "nobleza",
-      "rank": "Hijo de Bey",
-      "caste": "Omega",
-      "aroma": "Pera madura con leche de almendras.",
-      "image": "ruzgar.jpg",
-      "summary": "Estirpe de una casa noble.",
-      "bio": ``,
-      "relations": [
-        "Madre: Tooru Hanim"
-      ],
-      "gender": "Masculino"
-    },
-    {
-      "id": "rashida",
-      "name": "Rashida",
-      "age": "14",
-      "group": "nobleza",
-      "rank": "Hija de Bey",
-      "caste": "Alfa",
-      "aroma": "No consignado",
-      "image": "rashida.jpg",
-      "summary": "Estirpe de una casa noble.",
-      "bio": ``,
-      "relations": [
-        "Madre: Tooru Hanim"
-      ],
-      "gender": "Femenino"
     },
   ]
 };
