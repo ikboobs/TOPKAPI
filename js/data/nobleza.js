@@ -245,20 +245,5 @@ export default {
       "relations": [],
       "gender": "Masculino"
     },
-    {
-      "id": "lev",
-      "name": "Lev",
-      "age": "24",
-      "group": "nobleza",
-    "house": "Casa Haiba",
-      "rank": "Bey",
-      "caste": "Alfa",
-      "aroma": "Manzana verde y cedro",
-      "image": "lev.jpg",
-      "summary": "Representante de la casa Haiba; noble de origen extranjero que consolidó su posición mediante el servicio y la influencia.",
-      "bio": "",
-      "relations": ["Hermana: Alissa" ],
-      "gender": "Masculino"
-    },
   ]
 };
