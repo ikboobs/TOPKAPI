@@ -162,23 +162,6 @@ export default {
       ],
       "gender": "Masculino"
     },
-    {
-      "id": "rashida",
-      "name": "Rashida",
-      "age": "14",
-      "group": "nobleza",
-    "house": "Casa Ushijima",
-      "rank": "Hatun",
-      "caste": "Alfa",
-      "aroma": "Mirra y lavanda",
-      "image": "rashida.jpg",
-      "summary": "Integrante de la antigua casa Ushijima; reside en el palacio como miembro del harén en busca de nuevas oportunidades.",
-      "bio": "",
-      "relations": [
-        "Madre: Tooru Hanim"
-      ],
-      "gender": "Femenino"
-    },
     
     {
       "id": "satori",
