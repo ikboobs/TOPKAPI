@@ -30,21 +30,5 @@ export default {
       "relations": [ "" ],
       "gender": "Masculino"
     },
-    {
-      "id": "akiteru",
-      "name": "Akiteru",
-      "age": "33",
-      "group": "administracion",
-      "rank": "Kızlar Ağası",
-      "caste": "Alfa",
-      "aroma": "Flor de Jamaica con Canela",
-      "image": "akiteru.jpg",
-      "summary": "Kızlar Ağası y autoridad masculina de enlace en los asuntos del harén; supervisa el acceso y determinados servicios de la casa interior.",
-      "bio": "",
-      "relations": [
-        "Hermano: Kei"
-      ],
-      "gender": "Masculino"
-    },
   ]
 };
