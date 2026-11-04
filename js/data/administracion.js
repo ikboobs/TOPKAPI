@@ -42,7 +42,7 @@ export default {
       "summary": "Kızlar Ağası y autoridad masculina de enlace en los asuntos del harén; supervisa el acceso y determinados servicios de la casa interior.",
       "bio": "",
       "relations": [
-        "Hermana: Tarae Haseki Sultan"
+        "Hermano: Kei"
       ],
       "gender": "Masculino"
     },
