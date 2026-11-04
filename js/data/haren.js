@@ -11,6 +11,7 @@ export default {
       "image": "yaku.jpg",
       "summary": "Kethüda Kadın y administrador principal del harén; coordina al personal y las necesidades de las residentes de mayor rango.",
       "bio": "",
+            "relations": [ "" ],
       "gender": "Masculino"
     },
     {
@@ -25,7 +26,7 @@ export default {
       "gender": "Masculino",
       "summary": "Kalfa experimentado; supervisa a las personas en formación y atiende las tareas domésticas y administrativas de la casa interior.",
       "bio": "",
-      "relations": ["Hermana: Svet" ],
+      "relations": [ "" ],
     },
     {
       "id": "shizuka",
@@ -83,6 +84,7 @@ export default {
       "image": "alissa.jpg",
       "summary": "İkbal del sultán; ocupa una posición favorecida dentro del harén imperial.",
       "bio": "",
+      "relations": [ "Hermano: Lev" ],
       "gender": "Femenino"
     },
     {
