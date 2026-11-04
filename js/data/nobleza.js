@@ -97,23 +97,6 @@ export default {
       "gender": "Masculino"
     },
     {
-      "id": "ushijima",
-      "name": "Wakatoshi",
-      "age": "39",
-      "group": "nobleza",
-      "rank": "Bey",
-      "caste": "Alfa",
-      "aroma": "Almizcle, cuero y pimienta.",
-      "image": "ushijima.jpg",
-      "summary": "Señor de una casa territorial con tradición militar.",
-      "bio": ``,
-      "relations": [
-        "Consorte: Tooru Hanim.",
-        "Hijos: Rúzgar Hanim y Rashida Hanim.",
-      ],
-      "gender": "Masculino"
-    },
-    {
       "id": "oikawa",
       "name": "Tōru",
       "age": "35",
@@ -122,10 +105,9 @@ export default {
       "caste": "Omega",
       "aroma": "Café y nuez moscada",
       "image": "oikawa.jpg",
-      "summary": "Consorte de una casa noble; hábil en las relaciones sociales y políticas.",
+      "summary": "Antiguo de una casa noble; hábil en las relaciones sociales y políticas.",
       "bio": ``,
       "relations": [
-        "Consorte: Wakatoshi Bey.",
         "Hijos: Rúzgar Hanim y Rashida Hanim.",
       ],
       "gender": "Masculino"
@@ -204,7 +186,6 @@ export default {
       "summary": "Estirpe de una casa noble.",
       "bio": ``,
       "relations": [
-        "Padre: Wakatoshi Bey",
         "Madre: Tooru Hanim"
       ],
       "gender": "Masculino"
@@ -221,24 +202,9 @@ export default {
       "summary": "Estirpe de una casa noble.",
       "bio": ``,
       "relations": [
-        "Padre: Wakatoshi Bey",
         "Madre: Tooru Hanim"
       ],
       "gender": "Femenino"
     },
-    {
-      "id": "issa",
-      "name": "Issa",
-      "age": "26",
-      "group": "nobleza",
-      "rank": "Hatun",
-      "caste": "Alfa",
-      "aroma": "Cereza y vino tinto",
-      "image": "issa.jpg",
-      "summary": "Noble de una casa caida.",
-      "bio": ``,
-      "relations": [],
-      "gender": "Femenino"
-    }
   ]
 };
