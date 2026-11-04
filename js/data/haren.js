@@ -73,46 +73,6 @@ export default {
       "gender": "Masculino"
     },
     {
-      "id": "kageyama",
-      "name": "Shōta",
-      "age": "22",
-      "group": "harem",
-      "rank": "Cariye",
-      "caste": "Omega",
-      "aroma": "Café negro y chocolate.",
-      "image": "shota.jpg",
-      "summary": "Dependiente del servicio palaciego que recibía formación en etiqueta, música, bordado, labores domésticas y otras habilidades, con posibilidades de ascender a puestos de mayor responsabilidad.",
-      "bio": ``,
-      "gender": "Masculino"
-    },
-    {
-      "id": "svet",
-      "name": "Svet",
-      "age": "20",
-      "group": "harem",
-      "rank": "Cariye",
-      "caste": "Omega",
-      "aroma": "Albaricoque.",
-      "image": "svet.jpg",
-      "summary": ".",
-      "bio": ``,
-      "relations": ["Hermano: Lev" ],
-      "gender": "Femenino"
-    },
-    {
-      "id": "akiko",
-      "name": "Akiko",
-      "age": "20",
-      "group": "harem",
-      "rank": "İkbal",
-      "caste": "Omega",
-      "aroma": "Rosas",
-      "image": "akiko.jpg",
-      "summary": "Persona que atrajo la atención o el favor del sultán, aunque todavía no posee el rango de una consorte consolidada.",
-      "bio": ``,
-      "gender": "Femenino"
-    },
-    {
       "id": "alissa",
       "name": "Alissa",
       "age": "22",
