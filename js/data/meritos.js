@@ -20,8 +20,8 @@ const MERIT_SYSTEM_DATA = {
   // contador militar y estratégico.
   entries: [
     // Ejemplo de registro (quitar los // para utilizarlo):
-    { participantId: "arata", gameId: "tiro-arco", month: "Noviembre", year: "12" },
-    { participantId: "arata", gameId: "batalla-naval", month: "Noviembre", year: "12" }
+    { participantId: "arata", gameId: "tiro-arco", month: "Noviembre", year: "14" },
+    { participantId: "arata", gameId: "batalla-naval", month: "Noviembre", year: "14" }
   ]
 };
 
