@@ -6,7 +6,7 @@ const CHRONICLE_DATA = {
     points: 75,
     month: "Octubre",
     year: "14",
-    reason: "Demostró conocimientos médicos y actuó oportunamente para salvar la vida de la Sultana Otoha tras su repentina enfermedad, contribuyendo a proteger a la hermana del sultán y regente del harén."
+    reason: "Demostró conocimientos médicos y actuó oportunamente para salvar la vida de la Sultana Otoha tras su repentina enfermedad, contribuyendo a proteger a la hermana del sultán y regente del harén"
   },
   {
     princeId: "osman",
