@@ -84,7 +84,7 @@ export default {
       "image": "alissa.jpg",
       "summary": "İkbal del sultán; ocupa una posición favorecida dentro del harén imperial.",
       "bio": "",
-      "relations": [ "Hermano: Lev" ],
+      "relations": [ "" ],
       "gender": "Femenino"
     },
     {
