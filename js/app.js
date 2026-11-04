@@ -63,14 +63,13 @@ function renderHarem(){
 }
 function renderNobility(){
  const houses=[
- {name:"Casa Ushijima",ids:["ushijima","oikawa","ruzgar","rashida"],desc:"Casa noble encabezada por Wakatoshi Bey."},
- {name:"Casa Bokuto",ids:["bokuto","akaashi","bokuto-son"],desc:"Casa vinculada a la nobleza militar y a la administración de sus dominios."},
- {name:"Casa Kuroo",ids:["kuroo","daisho","kuroo-son"],desc:"Casa con vínculos militares, comerciales y territoriales."},
- {name:"Casa Tendō",ids:["tendo"],desc:"Casa individual registrada en torno a Satori Tendō."},
+ {name:"Casa Ushijima",ids:["oikawa","ruzgar","rashida"],desc:"Casa noble encabezada por Wakatoshi Bey."},
+ {name:"Casa Bokuto",ids:["bokuto","akaashi", "ren", "yun"],desc:"Casa vinculada a la nobleza militar y a la administración de sus dominios."},
+ {name:"Casa Kuroo",ids:["kuroo","daisho","noe"],desc:"Casa con vínculos militares, comerciales y territoriales."},
+ {name:"Casa Tendō",ids:["tendo", "takeshiro"],desc:"Casa individual registrada en torno a Satori Tendō."},
  {name:"Casa Sakusa",ids:["sakusa"],desc:"Casa individual de rango Pachá."},
  {name:"Casa Iwaizumi",ids:["iwaizumi"],desc:"Casa noble de tradición militar y administración de dominios."},
  {name:"Casa Haiba",ids:["lev"],desc:"Casa de la nobleza de origen extranjero."},
- {name:"Casa Matsukawa",ids:["issa"],desc:"Casa de estatus perdido."},
  {name:"Casas nobles por completar",ids:[],desc:"Las casas adicionales se incorporarán cuando sus fichas y vínculos estén registrados."}
  ];
  const actual=houses.map(h=>({...h,members:h.ids.map(id=>people.find(p=>p.id===id)).filter(Boolean)})).filter(h=>h.members.length);
