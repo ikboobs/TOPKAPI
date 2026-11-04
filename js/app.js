@@ -55,7 +55,7 @@ function renderHarem(){
     "kageyama",
     "svet",
   ]
-}, {title:"Servicio del harén",desc:"Personal dedicado a las tareas y la administración cotidiana de la casa interior.",ids:["kei"]}
+}, {title:"Servicio del harén",desc:"Personal dedicado a las tareas y la administración cotidiana de la casa interior.",ids:["akiteru", "tadashi", "aran", "kei",]}
  ];
  const all=groups.map(g=>{const list=g.ids.map(id=>people.find(p=>p.id===id)).filter((p,i,a)=>p&&a.findIndex(x=>x.id===p.id)===i);return section(g.title,g.desc,list);}).join("");
  $("#haremPositions").innerHTML=all;
@@ -63,12 +63,12 @@ function renderHarem(){
 }
 function renderNobility(){
  const houses=[
- {name:"Casa Ushijima",ids:["oikawa","ruzgar","rashida"],desc:"Casa noble encabezada por Wakatoshi Bey."},
- {name:"Casa Bokuto",ids:["bokuto","akaashi", "ren", "yun"],desc:"Casa vinculada a la nobleza militar y a la administración de sus dominios."},
- {name:"Casa Kuroo",ids:["kuroo","daisho","noe"],desc:"Casa con vínculos militares, comerciales y territoriales."},
- {name:"Casa Tendō",ids:["tendo", "takeshiro"],desc:"Casa individual registrada en torno a Satori Tendō."},
- {name:"Casa Sakusa",ids:["sakusa"],desc:"Casa individual de rango Pachá."},
- {name:"Casa Iwaizumi",ids:["iwaizumi"],desc:"Casa noble de tradición militar y administración de dominios."},
+ {name:"Casa Ushijima",ids:["tooru","ruzgar","rashida"],desc:"Casa noble encabezada por Wakatoshi Bey."},
+ {name:"Casa Bokuto",ids:["kotaro","akaashi", "ren", "yun"],desc:"Casa vinculada a la nobleza militar y a la administración de sus dominios."},
+ {name:"Casa Kuroo",ids:["tetsuro","daisho","noe"],desc:"Casa con vínculos militares, comerciales y territoriales."},
+ {name:"Casa Tendō",ids:["satori", "takeshiro"],desc:"Casa individual registrada en torno a Satori Tendō."},
+ {name:"Casa Sakusa",ids:["kiyoomi"],desc:"Casa individual de rango Pachá."},
+ {name:"Casa Iwaizumi",ids:["hajime"],desc:"Casa noble de tradición militar y administración de dominios."},
  {name:"Casa Haiba",ids:["lev"],desc:"Casa de la nobleza de origen extranjero."},
  {name:"Casas nobles por completar",ids:[],desc:"Las casas adicionales se incorporarán cuando sus fichas y vínculos estén registrados."}
  ];
