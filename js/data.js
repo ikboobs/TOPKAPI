@@ -16,7 +16,6 @@ const characters = [
 // mediante identificadores, sin duplicar fichas para representar varios vínculos.
 const TOPKAPI = {
   characters,
-  offices: gobierno.offices,
   organigramas
 };
 
