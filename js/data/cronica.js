@@ -253,7 +253,6 @@ const CHRONICLE_DATA = {
     manifestar su satisfacción, el soberano ordenó la distribución de monedas de oro en el harén imperial, permitiendo que las mujeres y servidores
     participaran de las celebraciones por la nueva descendencia de la dinastía.`
   }
-]
   ]
 };
 
