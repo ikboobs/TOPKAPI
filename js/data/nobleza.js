@@ -215,35 +215,5 @@ export default {
       "gender": "Masculino"
     },
     
-    {
-      "id": "kiyoomi",
-      "name": "Kiyoomi",
-      "age": "34",
-      "group": "nobleza",
-    "house": "Casa Sakusa",
-      "rank": "Pashá",
-      "caste": "Alfa",
-      "aroma": "Benjuí, incienso y tonka",
-      "image": "kiyoomi.jpg",
-      "summary": "Pashá y representante de la casa Sakusa; administrador militar y estratega meticuloso en los asuntos del Estado.",
-      "bio": "",
-      "relations": [],
-      "gender": "Masculino"
-    },
-    {
-      "id": "hajime",
-      "name": "Hajime",
-      "age": "25",
-      "group": "nobleza",
-    "house": "Casa Iwaizumi",
-      "rank": "Bey",
-      "caste": "Alfa",
-      "aroma": "Cedro, cuero y especias calidas.",
-      "image": "hajime.jpg",
-      "summary": "Representante de la casa Iwaizumi; noble vinculado a la autoridad y los intereses de su linaje.",
-      "bio": "",
-      "relations": [],
-      "gender": "Masculino"
-    },
   ]
 };
