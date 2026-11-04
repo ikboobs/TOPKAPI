@@ -21,7 +21,7 @@ const MERIT_SYSTEM_DATA = {
   entries: [
     // Ejemplo de registro (quitar los // para utilizarlo):
     { participantId: "arata", gameId: "tiro-arco", month: "Noviembre", year: "12" },
-    // { participantId: "kotaro", gameId: "tiro-arco", month: "Noviembre", year: "12" }
+    { participantId: "arata", gameId: "batalla-naval", month: "Noviembre", year: "12" }
   ]
 };
 
