@@ -3,7 +3,7 @@ const CHRONICLE_DATA = {
   {
     princeId: "arata",
     type: "historico",
-    points: 1,
+    points: 75,
     month: "Octubre",
     year: "12",
     reason: "Demostró conocimientos médicos y actuó oportunamente para salvar la vida de la Sultana Otoha tras su repentina enfermedad, contribuyendo a proteger a la hermana del sultán y regente del harén."
@@ -11,7 +11,7 @@ const CHRONICLE_DATA = {
   {
     princeId: "osman",
     type: "historico",
-    points: 1,
+    points: 75,
     month: "Octubre",
     year: "12",
     reason: "Ha demostrado interés constante por conocer el funcionamiento interno del palacio y sus dinámicas administrativas, destacándose por su participación activa en la vida de la corte y su atención a los asuntos imperiales."
