@@ -9,7 +9,7 @@ export default {
       "caste": "Alfa",
       "aroma": "Maresia",
       "image": "tadashi.jpg",
-      "summary": "Guardián personal de Tarae y sus hijos; su deber consiste en protegerlos y respetar los accesos autorizados.",
+      "summary": "Guardián personal de Ptoha Sultan.",
       "bio": "",
       "relations": [
         "Hermana: Tarae Haseki Sultan"
